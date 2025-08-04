@@ -1,0 +1,8 @@
+[
+  {"name": "OS", "values": ["Windows"]},
+  {"name": "Browser", "values": ["Chromium"]},
+  {"name": "Browser.Version", "values": ["124.0"]},
+  {"name": "Platform", "values": ["Windows"]},
+  {"name": "BaseURL", "values": ["https://surecafe.tiuconsulting.us"]},
+  {"name": "Department", "values": ["QA"]}
+]

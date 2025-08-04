@@ -1,0 +1,51 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link:
+    - /url: /frontend/profile/home
+    - img
+  - link:
+    - /url: javascript:void(0)
+  - list:
+    - listitem:
+      - link "SM":
+        - /url: "#"
+- navigation:
+  - paragraph: Smith Mac
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /frontend/profile/home
+        - img
+        - text: Home
+    - listitem:
+      - link "Profile":
+        - /url: /frontend/profile/dashboard
+        - img
+        - text: Profile
+    - listitem:
+      - link "Jobs":
+        - /url: /frontend/profile/candidate-jobs
+        - img
+        - text: Jobs
+- main:
+  - text: L1-Scheduled
+  - heading "Laravel Programmer" [level=1]
+  - paragraph: "Job Type: Full Time"
+  - paragraph: "Minimum Required Education: --"
+  - paragraph: "Minimum Required Experience: 2years"
+  - paragraph: "Location:"
+  - paragraph: "Required Skills:"
+  - paragraph: PHP Laravel Angular MySql
+  - paragraph: "Nice to have:"
+  - paragraph: "--"
+  - paragraph: "Job Description:"
+  - paragraph: Laravel Developer
+- contentinfo:
+  - paragraph: Powered By TIUSureCafe
+  - paragraph:
+    - text: © 2024 All rights reserved.
+    - link "TIU Consulting":
+      - /url: https://www.tiuconsulting.com/
+```

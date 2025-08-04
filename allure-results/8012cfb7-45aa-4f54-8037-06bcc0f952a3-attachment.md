@@ -1,0 +1,70 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link:
+    - /url: /frontend/profile/home
+    - img
+  - link:
+    - /url: javascript:void(0)
+  - list:
+    - listitem:
+      - link "SM":
+        - /url: "#"
+- navigation:
+  - paragraph: Smith Mac
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /frontend/profile/home
+        - img
+        - text: Home
+    - listitem:
+      - link "Profile":
+        - /url: /frontend/profile/dashboard
+        - img
+        - text: Profile
+    - listitem:
+      - link "Jobs":
+        - /url: /frontend/profile/candidate-jobs
+        - img
+        - text: Jobs
+- heading "My Profile" [level=1]
+- paragraph:
+  - text: Please fill out the form below and we will promptly prepare your personalized resume and get in touch with you at the earliest convenience.
+  - strong: Fields marked with an asterisk (*) are mandatory.
+- progressbar: 33%
+- tablist:
+  - button "1"
+  - button "2"
+  - button "3"
+- tabpanel:
+  - heading "Education" [level=1]
+  - text: Degree Earned (Highest Qualification) *
+  - textbox: Bachelor of technology- Electronics & Instrumentation Engineering
+  - text: Institution Name
+  - textbox "Degree Earned (Highest Qualification) * Institution Name Year of Passing * Major/Field of Study GPA or relevant academic achievements Certification Name Issuing Organization Date Obtained Expiration Date": West Bengal University of Technology
+  - text: Year of Passing *
+  - spinbutton: "2023"
+  - text: Major/Field of Study
+  - textbox
+  - text: GPA or relevant academic achievements
+  - textbox "<Type your message here...>"
+  - heading "Certifications" [level=1]
+  - text: Certification Name
+  - textbox
+  - text: Issuing Organization
+  - textbox
+  - text: Date Obtained
+  - textbox
+  - text: Expiration Date
+  - textbox
+  - button "Back"
+  - button "Next"
+- contentinfo:
+  - paragraph: Powered By TIUSureCafe
+  - paragraph:
+    - text: © 2024 All rights reserved.
+    - link "TIU Consulting":
+      - /url: https://www.tiuconsulting.com/
+```

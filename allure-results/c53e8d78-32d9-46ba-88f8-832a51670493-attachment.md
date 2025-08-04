@@ -1,0 +1,55 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link:
+    - /url: /frontend/profile/home
+    - img
+  - link:
+    - /url: javascript:void(0)
+  - list:
+    - listitem:
+      - link "SM":
+        - /url: "#"
+- navigation:
+  - paragraph: Smith Mac
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /frontend/profile/home
+        - img
+        - text: Home
+    - listitem:
+      - link "Profile":
+        - /url: /frontend/profile/dashboard
+        - img
+        - text: Profile
+    - listitem:
+      - link "Jobs":
+        - /url: /frontend/profile/candidate-jobs
+        - img
+        - text: Jobs
+- main:
+  - heading "Candidate Dashboard" [level=1]
+  - searchbox "Search"
+  - text: Job Applied Status
+  - paragraph: No record available.
+  - text: Job Application Tracker
+  - paragraph: No record available.
+  - searchbox "Search"
+  - text: Interviews
+  - table:
+    - rowgroup:
+      - row "Job Interviewer Date Meet Url":
+        - cell "Job"
+        - cell "Interviewer"
+        - cell "Date"
+        - cell "Meet Url"
+  - paragraph: No record available.
+- contentinfo:
+  - paragraph: Powered By TIUSureCafe
+  - paragraph:
+    - text: © 2024 All rights reserved.
+    - link "TIU Consulting":
+      - /url: https://www.tiuconsulting.com/
+```

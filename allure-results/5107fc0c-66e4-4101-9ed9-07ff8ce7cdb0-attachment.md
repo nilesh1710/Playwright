@@ -1,0 +1,121 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link:
+    - /url: /frontend/profile/home
+    - img
+  - link:
+    - /url: javascript:void(0)
+  - list:
+    - listitem:
+      - link "SM":
+        - /url: "#"
+- navigation:
+  - paragraph: Smith Mac
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /frontend/profile/home
+        - img
+        - text: Home
+    - listitem:
+      - link "Profile":
+        - /url: /frontend/profile/dashboard
+        - img
+        - text: Profile
+    - listitem:
+      - link "Jobs":
+        - /url: /frontend/profile/candidate-jobs
+        - img
+        - text: Jobs
+- heading "My Profile" [level=1]
+- paragraph:
+  - text: Please fill out the form below and we will promptly prepare your personalized resume and get in touch with you at the earliest convenience.
+  - strong: Fields marked with an asterisk (*) are mandatory.
+- progressbar: 35%
+- tablist:
+  - button "1"
+  - button "2"
+  - button "3"
+- tabpanel:
+  - heading "Personal Information" [level=1]
+  - img
+  - text: 
+  - strong: Max upload size 10MB.Only (.jpg, .png) image formats are allowed
+  - text: Upload your Resume *
+  - button "Choose File"
+  - link "Playwrihgt":
+    - /url: https://surecafe.tiuconsulting.us/storage/tenant21628cc3-1339-45d5-9ffb-5c97dbe5b129/app/public/4394/Playwrihgt.docx
+  - paragraph: Max upload size 25MB. Only (Docx, Pdf) file formats are allowed
+  - text: First Name *
+  - textbox: Smith
+  - text: Last Name *
+  - textbox: Mac
+  - text: Date of Birth
+  - textbox
+  - text: Email *
+  - textbox: ats434@yopmail.com
+  - text: Mobile Number *
+  - combobox
+  - textbox: "3434343333"
+  - text: LinkedIn URL
+  - textbox
+  - text: Portfolio URL
+  - textbox
+  - text: Gender
+  - combobox:
+    - option "Please Select"
+    - option "Male"
+    - option "Female"
+    - option "No-binary"
+    - option "Prefer not to say"
+  - text: Pin Code / Zip Code
+  - textbox
+  - text: Country *
+  - combobox
+  - text: State
+  - combobox
+  - text: Address Line 1
+  - textbox
+  - text: Address Line 2
+  - textbox
+  - text: City
+  - textbox: Ny
+  - text: Available For
+  - textbox: PartTime
+  - text: Expected Rate/Salary
+  - textbox
+  - text: Payroll System
+  - combobox:
+    - option "Yearly" [selected]
+    - option "Monthly"
+    - option "Daily"
+    - option "Hourly"
+  - text: Available to join/last working day
+  - textbox
+  - text: Total Experience (In Years)
+  - textbox: "11"
+  - text: Relocation Preferences
+  - combobox:
+    - option "Yes"
+    - option "No"
+  - text: Current Designation
+  - textbox
+  - heading "Professional Summary" [level=1]
+  - text: Objective/Summary Statement
+  - textbox "<Type your message here...>": Seasoned professional with 11+ years’ experience in ServiceNow Consultant and implementation specialist with a deep proficiency in ITOM, ITSM, CMDB, ITAM, Virtual Agent and IT Financial Management. Skilled in ServiceNow scripting, with a proven record of delivering innovative solutions to elevate service delivery, ensure compliance, and align with industry best practices. With over a decade of industry experience
+  - text: Technical Skill
+  - textbox "Upload your Resume * First Name * Last Name * Date of Birth Email * Mobile Number * LinkedIn URL Portfolio URL Pin Code / Zip Code Country * State Address Line 1 Address Line 2 City Available For Expected Rate/Salary Payroll System Available to join/last working day Total Experience (In Years) Relocation Preferences Current Designation Objective/Summary Statement Technical Skill Non Technical Soft Skills": ServiceNow Discovery,CMDB & IT Asset Management Event management,IT Service Management,IT Financial Management REST/SOAP Integrations Service Mapping,Virtual Agent Designer,Reporting/ Performance Analytics
+  - text: Non Technical
+  - textbox
+  - text: Soft Skills
+  - textbox
+  - button "Next"
+- contentinfo:
+  - paragraph: Powered By TIUSureCafe
+  - paragraph:
+    - text: © 2024 All rights reserved.
+    - link "TIU Consulting":
+      - /url: https://www.tiuconsulting.com/
+```

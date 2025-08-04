@@ -1,0 +1,135 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link:
+    - /url: /frontend/profile/home
+    - img
+  - link:
+    - /url: javascript:void(0)
+  - list:
+    - listitem:
+      - link "Vt":
+        - /url: "#"
+- navigation:
+  - paragraph: Vipul tarne
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /frontend/profile/home
+        - img
+        - text: Home
+    - listitem:
+      - link "Profile":
+        - /url: /frontend/profile/dashboard
+        - img
+        - text: Profile
+    - listitem:
+      - link "Jobs":
+        - /url: /frontend/profile/candidate-jobs
+        - img
+        - text: Jobs
+- main:
+  - heading "Candidate Dashboard" [level=1]
+  - searchbox "Search"
+  - text: Job Applied Status
+  - table:
+    - rowgroup:
+      - row "Job Title Applying Date Status":
+        - columnheader "Job Title":
+          - button "Job Title"
+        - columnheader "Applying Date":
+          - button "Applying Date"
+        - columnheader "Status":
+          - button "Status"
+    - rowgroup:
+      - row "System Admin 2025-06-12 Pending":
+        - cell "System Admin":
+          - link "System Admin":
+            - /url: javascript:void(0);
+        - cell "2025-06-12"
+        - cell "Pending"
+      - row "Sr Laravel Developer 2025-06-12 Pending":
+        - cell "Sr Laravel Developer":
+          - link "Sr Laravel Developer":
+            - /url: javascript:void(0);
+        - cell "2025-06-12"
+        - cell "Pending"
+      - row "SEO Analyst 2025-06-12 Pending":
+        - cell "SEO Analyst":
+          - link "SEO Analyst":
+            - /url: javascript:void(0);
+        - cell "2025-06-12"
+        - cell "Pending"
+      - row "Senior QA 2025-06-12 Applied":
+        - cell "Senior QA":
+          - link "Senior QA":
+            - /url: javascript:void(0);
+        - cell "2025-06-12"
+        - cell "Applied"
+      - row "Data Analyst 2025-06-12 L1-Scheduling Required":
+        - cell "Data Analyst":
+          - link "Data Analyst":
+            - /url: javascript:void(0);
+        - cell "2025-06-12"
+        - cell "L1-Scheduling Required"
+      - row "DevOps Engineer 2025-06-12 Reschedule Required":
+        - cell "DevOps Engineer":
+          - link "DevOps Engineer":
+            - /url: javascript:void(0);
+        - cell "2025-06-12"
+        - cell "Reschedule Required"
+      - row "Laravel Programmer 2025-06-11 Evaluation Scheduled":
+        - cell "Laravel Programmer":
+          - link "Laravel Programmer":
+            - /url: javascript:void(0);
+        - cell "2025-06-11"
+        - cell "Evaluation Scheduled"
+      - row "Java Developer 2025-06-04 Evaluation Scheduled":
+        - cell "Java Developer":
+          - link "Java Developer":
+            - /url: javascript:void(0);
+        - cell "2025-06-04"
+        - cell "Evaluation Scheduled"
+      - row "Data engineer 2025-06-03 Evaluation Scheduled":
+        - cell "Data engineer":
+          - link "Data engineer":
+            - /url: javascript:void(0);
+        - cell "2025-06-03"
+        - cell "Evaluation Scheduled"
+      - row "IT Consultant 2025-05-29 Applied":
+        - cell "IT Consultant":
+          - link "IT Consultant":
+            - /url: javascript:void(0);
+        - cell "2025-05-29"
+        - cell "Applied"
+  - text: Showing data 1 to 10 of 20 entries
+  - button [disabled]:
+    - img
+  - button [disabled]:
+    - img
+  - button "1"
+  - button "2"
+  - button:
+    - img
+  - button:
+    - img
+  - text: Job Application Tracker
+  - img: Years Count Applied Interview Scheduled Finalized Pending Evaluation Scheduled Reschedule Required L1-Scheduling Required L1-Scheduled 2025 0 5 10
+  - searchbox "Search"
+  - text: Interviews
+  - table:
+    - rowgroup:
+      - row "Job Interviewer Date Meet Url":
+        - cell "Job"
+        - cell "Interviewer"
+        - cell "Date"
+        - cell "Meet Url"
+  - paragraph: No record available.
+- contentinfo:
+  - paragraph: Powered By TIUSureCafe
+  - paragraph:
+    - text: © 2024 All rights reserved.
+    - link "TIU Consulting":
+      - /url: https://www.tiuconsulting.com/
+```

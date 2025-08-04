@@ -1,0 +1,440 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link:
+    - /url: /frontend/profile/home
+    - img
+  - link:
+    - /url: javascript:void(0)
+  - list:
+    - listitem:
+      - link "SM":
+        - /url: "#"
+- navigation:
+  - paragraph: Smith Mac
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /frontend/profile/home
+        - img
+        - text: Home
+    - listitem:
+      - link "Profile":
+        - /url: /frontend/profile/dashboard
+        - img
+        - text: Profile
+    - listitem:
+      - link "Jobs":
+        - /url: /frontend/profile/candidate-jobs
+        - img
+        - text: Jobs
+- heading "My Profile" [level=1]
+- paragraph:
+  - text: Please fill out the form below and we will promptly prepare your personalized resume and get in touch with you at the earliest convenience.
+  - strong: Fields marked with an asterisk (*) are mandatory.
+- progressbar: 33%
+- tablist:
+  - button "1"
+  - button "2"
+  - button "3"
+- tabpanel:
+  - heading "Personal Information" [level=1]
+  - img
+  - text: 
+  - strong: Max upload size 10MB.Only (.jpg, .png) image formats are allowed
+  - text: Upload your Resume *
+  - button "Choose File"
+  - link "Playwrihgt":
+    - /url: https://surecafe.tiuconsulting.us/storage/tenant21628cc3-1339-45d5-9ffb-5c97dbe5b129/app/public/4457/Playwrihgt.docx
+  - paragraph: Max upload size 25MB. Only (Docx, Pdf) file formats are allowed
+  - text: First Name *
+  - textbox: Smith
+  - text: Last Name *
+  - textbox: Mac
+  - text: Date of Birth
+  - textbox
+  - text: Email *
+  - textbox: ats434@yopmail.com
+  - text: Mobile Number *
+  - combobox:
+    - option "IN + 91" [selected]
+    - option "US + 1"
+  - textbox: "3434343333"
+  - text: LinkedIn URL
+  - textbox
+  - text: Portfolio URL
+  - textbox
+  - text: Gender
+  - combobox:
+    - option "Please Select"
+    - option "Male"
+    - option "Female"
+    - option "No-binary"
+    - option "Prefer not to say"
+  - text: Pin Code / Zip Code
+  - textbox
+  - text: Country *
+  - combobox:
+    - option "Afghanistan"
+    - option "Aland Islands"
+    - option "Albania"
+    - option "Algeria"
+    - option "American Samoa"
+    - option "Andorra"
+    - option "Angola"
+    - option "Anguilla"
+    - option "Antarctica"
+    - option "Antigua and Barbuda"
+    - option "Argentina"
+    - option "Armenia"
+    - option "Aruba"
+    - option "Australia"
+    - option "Austria"
+    - option "Azerbaijan"
+    - option "Bahrain"
+    - option "Bangladesh"
+    - option "Barbados"
+    - option "Belarus"
+    - option "Belgium"
+    - option "Belize"
+    - option "Benin"
+    - option "Bermuda"
+    - option "Bhutan"
+    - option "Bolivia"
+    - option "Bonaire, Sint Eustatius and Saba"
+    - option "Bosnia and Herzegovina"
+    - option "Botswana"
+    - option "Bouvet Island"
+    - option "Brazil"
+    - option "British Indian Ocean Territory"
+    - option "Brunei"
+    - option "Bulgaria"
+    - option "Burkina Faso"
+    - option "Burundi"
+    - option "Cambodia"
+    - option "Cameroon"
+    - option "Canada"
+    - option "Cape Verde"
+    - option "Cayman Islands"
+    - option "Central African Republic"
+    - option "Chad"
+    - option "Chile"
+    - option "China"
+    - option "Christmas Island"
+    - option "Cocos (Keeling) Islands"
+    - option "Colombia"
+    - option "Comoros"
+    - option "Congo"
+    - option "Cook Islands"
+    - option "Costa Rica"
+    - option "Cote D\\'Ivoire (Ivory Coast)"
+    - option "Croatia"
+    - option "Cuba"
+    - option "Curaçao"
+    - option "Cyprus"
+    - option "Czech Republic"
+    - option "Democratic Republic of the Congo"
+    - option "Denmark"
+    - option "Djibouti"
+    - option "Dominica"
+    - option "Dominican Republic"
+    - option "Ecuador"
+    - option "Egypt"
+    - option "El Salvador"
+    - option "Equatorial Guinea"
+    - option "Eritrea"
+    - option "Estonia"
+    - option "Eswatini"
+    - option "Ethiopia"
+    - option "Falkland Islands"
+    - option "Faroe Islands"
+    - option "Fiji Islands"
+    - option "Finland"
+    - option "France"
+    - option "French Guiana"
+    - option "French Polynesia"
+    - option "French Southern Territories"
+    - option "Gabon"
+    - option "Gambia The"
+    - option "Georgia"
+    - option "Germany"
+    - option "Ghana"
+    - option "Gibraltar"
+    - option "Greece"
+    - option "Greenland"
+    - option "Grenada"
+    - option "Guadeloupe"
+    - option "Guam"
+    - option "Guatemala"
+    - option "Guernsey and Alderney"
+    - option "Guinea"
+    - option "Guinea-Bissau"
+    - option "Guyana"
+    - option "Haiti"
+    - option "Heard Island and McDonald Islands"
+    - option "Honduras"
+    - option "Hong Kong S.A.R."
+    - option "Hungary"
+    - option "Iceland"
+    - option "India"
+    - option "Indonesia"
+    - option "Iran"
+    - option "Iraq"
+    - option "Ireland"
+    - option "Israel"
+    - option "Italy"
+    - option "Jamaica"
+    - option "Japan"
+    - option "Jersey"
+    - option "Jordan"
+    - option "Kazakhstan"
+    - option "Kenya"
+    - option "Kiribati"
+    - option "Kosovo"
+    - option "Kuwait"
+    - option "Kyrgyzstan"
+    - option "Laos"
+    - option "Latvia"
+    - option "Lebanon"
+    - option "Lesotho"
+    - option "Liberia"
+    - option "Libya"
+    - option "Liechtenstein"
+    - option "Lithuania"
+    - option "Luxembourg"
+    - option "Macau S.A.R."
+    - option "Madagascar"
+    - option "Malawi"
+    - option "Malaysia"
+    - option "Maldives"
+    - option "Mali"
+    - option "Malta"
+    - option "Man (Isle of)"
+    - option "Marshall Islands"
+    - option "Martinique"
+    - option "Mauritania"
+    - option "Mauritius"
+    - option "Mayotte"
+    - option "Mexico"
+    - option "Micronesia"
+    - option "Moldova"
+    - option "Monaco"
+    - option "Mongolia"
+    - option "Montenegro"
+    - option "Montserrat"
+    - option "Morocco"
+    - option "Mozambique"
+    - option "Myanmar"
+    - option "Namibia"
+    - option "Nauru"
+    - option "Nepal"
+    - option "Netherlands"
+    - option "New Caledonia"
+    - option "New Zealand"
+    - option "Nicaragua"
+    - option "Niger"
+    - option "Nigeria"
+    - option "Niue"
+    - option "Norfolk Island"
+    - option "North Korea"
+    - option "North Macedonia"
+    - option "Northern Mariana Islands"
+    - option "Norway"
+    - option "Oman"
+    - option "Pakistan"
+    - option "Palau"
+    - option "Palestinian Territory Occupied"
+    - option "Panama"
+    - option "Papua New Guinea"
+    - option "Paraguay"
+    - option "Peru"
+    - option "Philippines"
+    - option "Pitcairn Island"
+    - option "Poland"
+    - option "Portugal"
+    - option "Puerto Rico"
+    - option "Qatar"
+    - option "Reunion"
+    - option "Romania"
+    - option "Russia"
+    - option "Rwanda"
+    - option "Saint Helena"
+    - option "Saint Kitts and Nevis"
+    - option "Saint Lucia"
+    - option "Saint Pierre and Miquelon"
+    - option "Saint Vincent and the Grenadines"
+    - option "Saint-Barthelemy"
+    - option "Saint-Martin (French part)"
+    - option "Samoa"
+    - option "San Marino"
+    - option "Sao Tome and Principe"
+    - option "Saudi Arabia"
+    - option "Senegal"
+    - option "Serbia"
+    - option "Seychelles"
+    - option "Sierra Leone"
+    - option "Singapore"
+    - option "Sint Maarten (Dutch part)"
+    - option "Slovakia"
+    - option "Slovenia"
+    - option "Solomon Islands"
+    - option "Somalia"
+    - option "South Africa"
+    - option "South Georgia"
+    - option "South Korea"
+    - option "South Sudan"
+    - option "Spain"
+    - option "Sri Lanka"
+    - option "Sudan"
+    - option "Suriname"
+    - option "Svalbard and Jan Mayen Islands"
+    - option "Sweden"
+    - option "Switzerland"
+    - option "Syria"
+    - option "Taiwan"
+    - option "Tajikistan"
+    - option "Tanzania"
+    - option "Thailand"
+    - option "The Bahamas"
+    - option "Timor-Leste"
+    - option "Togo"
+    - option "Tokelau"
+    - option "Tonga"
+    - option "Trinidad and Tobago"
+    - option "Tunisia"
+    - option "Turkey"
+    - option "Turkmenistan"
+    - option "Turks and Caicos Islands"
+    - option "Tuvalu"
+    - option "Uganda"
+    - option "Ukraine"
+    - option "United Arab Emirates"
+    - option "United Kingdom"
+    - option "United States" [selected]
+    - option "United States Minor Outlying Islands"
+    - option "Uruguay"
+    - option "Uzbekistan"
+    - option "Vanuatu"
+    - option "Vatican City State (Holy See)"
+    - option "Venezuela"
+    - option "Vietnam"
+    - option "Virgin Islands (British)"
+    - option "Virgin Islands (US)"
+    - option "Wallis and Futuna Islands"
+    - option "Western Sahara"
+    - option "Yemen"
+    - option "Zambia"
+    - option "Zimbabwe"
+  - text: State
+  - combobox:
+    - option "Alabama" [selected]
+    - option "Alaska"
+    - option "American Samoa"
+    - option "Arizona"
+    - option "Arkansas"
+    - option "Baker Island"
+    - option "California"
+    - option "Colorado"
+    - option "Connecticut"
+    - option "Delaware"
+    - option "District of Columbia"
+    - option "Florida"
+    - option "Georgia"
+    - option "Guam"
+    - option "Hawaii"
+    - option "Howland Island"
+    - option "Idaho"
+    - option "Illinois"
+    - option "Indiana"
+    - option "Iowa"
+    - option "Jarvis Island"
+    - option "Johnston Atoll"
+    - option "Kansas"
+    - option "Kentucky"
+    - option "Kingman Reef"
+    - option "Louisiana"
+    - option "Maine"
+    - option "Maryland"
+    - option "Massachusetts"
+    - option "Michigan"
+    - option "Midway Atoll"
+    - option "Minnesota"
+    - option "Mississippi"
+    - option "Missouri"
+    - option "Montana"
+    - option "Navassa Island"
+    - option "Nebraska"
+    - option "Nevada"
+    - option "New Hampshire"
+    - option "New Jersey"
+    - option "New Mexico"
+    - option "New York"
+    - option "North Carolina"
+    - option "North Dakota"
+    - option "Northern Mariana Islands"
+    - option "Ohio"
+    - option "Oklahoma"
+    - option "Oregon"
+    - option "Palmyra Atoll"
+    - option "Pennsylvania"
+    - option "Puerto Rico"
+    - option "Rhode Island"
+    - option "South Carolina"
+    - option "South Dakota"
+    - option "Tennessee"
+    - option "Texas"
+    - option "United States Minor Outlying Islands"
+    - option "United States Virgin Islands"
+    - option "Utah"
+    - option "Vermont"
+    - option "Virginia"
+    - option "Wake Island"
+    - option "Washington"
+    - option "West Virginia"
+    - option "Wisconsin"
+    - option "Wyoming"
+    - option "Other"
+  - text: Address Line 1
+  - textbox
+  - text: Address Line 2
+  - textbox
+  - text: City
+  - textbox
+  - text: Available For
+  - textbox: PartTime
+  - text: Expected Rate/Salary
+  - textbox
+  - text: Payroll System
+  - combobox:
+    - option "Yearly" [selected]
+    - option "Monthly"
+    - option "Daily"
+    - option "Hourly"
+  - text: Available to join/last working day
+  - textbox
+  - text: Total Experience (In Years)
+  - textbox: "11"
+  - text: Relocation Preferences
+  - combobox:
+    - option "Yes"
+    - option "No"
+  - text: Current Designation
+  - textbox
+  - heading "Professional Summary" [level=1]
+  - text: Objective/Summary Statement
+  - textbox "<Type your message here...>": Seasoned professional with 11+ years’ experience in ServiceNow Consultant and implementation specialist with a deep proficiency in ITOM, ITSM, CMDB, ITAM, Virtual Agent and IT Financial Management. Skilled in ServiceNow scripting, with a proven record of delivering innovative solutions to elevate service delivery, ensure compliance, and align with industry best practices. With over a decade of industry experience
+  - text: Technical Skill
+  - textbox "Upload your Resume * First Name * Last Name * Date of Birth Email * Mobile Number * LinkedIn URL Portfolio URL Pin Code / Zip Code Country * State Address Line 1 Address Line 2 City Available For Expected Rate/Salary Payroll System Available to join/last working day Total Experience (In Years) Relocation Preferences Current Designation Objective/Summary Statement Technical Skill Non Technical Soft Skills": ServiceNow Discovery,CMDB & IT Asset Management Event management,IT Service Management,IT Financial Management REST/SOAP Integrations Service Mapping,Virtual Agent Designer,Reporting/ Performance Analytics
+  - text: Non Technical
+  - textbox
+  - text: Soft Skills
+  - textbox
+  - button "Next"
+- contentinfo:
+  - paragraph: Powered By TIUSureCafe
+  - paragraph:
+    - text: © 2024 All rights reserved.
+    - link "TIU Consulting":
+      - /url: https://www.tiuconsulting.com/
+```

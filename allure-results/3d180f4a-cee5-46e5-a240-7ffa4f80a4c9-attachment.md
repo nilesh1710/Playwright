@@ -1,0 +1,110 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link:
+    - /url: /frontend/profile/home
+    - img
+  - link:
+    - /url: javascript:void(0)
+  - list:
+    - listitem:
+      - link "VS":
+        - /url: "#"
+- navigation:
+  - paragraph: Vipul Sathe
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /frontend/profile/home
+        - img
+        - text: Home
+    - listitem:
+      - link "Profile":
+        - /url: /frontend/profile/dashboard
+        - img
+        - text: Profile
+    - listitem:
+      - link "Jobs":
+        - /url: /frontend/profile/candidate-jobs
+        - img
+        - text: Jobs
+- main:
+  - heading "Candidate Dashboard" [level=1]
+  - searchbox "Search"
+  - text: Job Applied Status
+  - table:
+    - rowgroup:
+      - row "Job Title Applying Date Status":
+        - columnheader "Job Title":
+          - button "Job Title"
+        - columnheader "Applying Date":
+          - button "Applying Date"
+        - columnheader "Status":
+          - button "Status"
+    - rowgroup:
+      - row "Cloud Solutions Architect 2025-06-11 Applied":
+        - cell "Cloud Solutions Architect":
+          - link "Cloud Solutions Architect":
+            - /url: javascript:void(0);
+        - cell "2025-06-11"
+        - cell "Applied"
+      - row "UI/UX Designer 2025-06-11 L1-Scheduled":
+        - cell "UI/UX Designer":
+          - link "UI/UX Designer":
+            - /url: javascript:void(0);
+        - cell "2025-06-11"
+        - cell "L1-Scheduled"
+      - row "Senior QA 2025-06-11 Applied":
+        - cell "Senior QA":
+          - link "Senior QA":
+            - /url: javascript:void(0);
+        - cell "2025-06-11"
+        - cell "Applied"
+      - row "Data engineer 2025-06-03 Pending":
+        - cell "Data engineer":
+          - link "Data engineer":
+            - /url: javascript:void(0);
+        - cell "2025-06-03"
+        - cell "Pending"
+      - row "Data engineer 2025-06-03 L1-Scheduled":
+        - cell "Data engineer":
+          - link "Data engineer":
+            - /url: javascript:void(0);
+        - cell "2025-06-03"
+        - cell "L1-Scheduled"
+      - row "Laravel Programmer 2025-06-02 Evaluation Scheduled":
+        - cell "Laravel Programmer":
+          - link "Laravel Programmer":
+            - /url: javascript:void(0);
+        - cell "2025-06-02"
+        - cell "Evaluation Scheduled"
+  - text: Showing data 1 to 6 of 6 entries
+  - button [disabled]:
+    - img
+  - button [disabled]:
+    - img
+  - button "1"
+  - button [disabled]:
+    - img
+  - button [disabled]:
+    - img
+  - text: Job Application Tracker
+  - img: Years Count Applied Pending Evaluation Scheduled L1-Scheduled 2025 0 5
+  - searchbox "Search"
+  - text: Interviews
+  - table:
+    - rowgroup:
+      - row "Job Interviewer Date Meet Url":
+        - cell "Job"
+        - cell "Interviewer"
+        - cell "Date"
+        - cell "Meet Url"
+  - paragraph: No record available.
+- contentinfo:
+  - paragraph: Powered By TIUSureCafe
+  - paragraph:
+    - text: © 2024 All rights reserved.
+    - link "TIU Consulting":
+      - /url: https://www.tiuconsulting.com/
+```

@@ -1,0 +1,500 @@
+<!DOCTYPE html><html lang="en" style="height: auto;"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>KredSafe: A Credentialing Concierge Service</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://dev.kredsafe.net/plugins/fontawesome-free/css/all.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+    <!-- DataTables -->
+    <link rel="stylesheet" href="https://dev.kredsafe.net/plugins/datatables-bs4/css/dataTables.bootstrap4.css">
+
+    <!-- Theme style -->
+    <link rel="stylesheet" href="https://dev.kredsafe.net/css/adminlte.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    <!-- Theme style -->
+    <link rel="stylesheet" href="https://dev.kredsafe.net/css/style.css">
+
+<!-- Hotjar Tracking Code for https://stage.kredsafe.com/ -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {hjid: 2269243, hjsv: 6};
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script><script async="" src="https://static.hotjar.com/c/hotjar-2269243.js?sv=6"></script>
+        <!-- Style for the crash page if style.css not loaded -->
+    <style>
+.custom-model-main {
+  text-align: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; /* z-index: 1050; */
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  opacity: 1;
+  -webkit-transition: opacity 0.15s linear, z-index 0.15;
+  -o-transition: opacity 0.15s linear, z-index 0.15;
+  transition: opacity 0.15s linear, z-index 0.15;
+  z-index: -1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.custom-model-main h1{
+    text-align: center;
+    color: #3f7a2f;
+    margin: 50px 0;
+}
+.model-open {
+  z-index: 99999;
+  opacity: 1;
+  overflow: hidden;
+}
+.custom-model-inner {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  -o-transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  display: inline-block;
+  vertical-align: middle;
+  width: 500px;
+  margin: 30px auto;
+  max-width: 97%;
+}
+.custom-model-wrap {
+  display: block;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  outline: 0;
+  text-align: center;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-height: calc(100vh - 70px);
+	overflow-y: auto;
+}
+.model-open .custom-model-inner {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  position: relative;
+  z-index: 999;
+  top: 15%;
+}
+.model-open .bg-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 99;
+}
+.bg-overlay {
+  background: rgba(0, 0, 0, 0);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  -webkit-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
+  transition: background 0.15s linear;
+}
+.networkImg {
+    margin-top: 50px;
+}
+.refreshBtn {
+    background: #3f7a2f !important;
+    border: 1px solid #3f7a2f;
+    color: #fff;
+    padding: .34rem .75rem;
+    font-size: 1em;
+    border-radius: 6px;
+    text-decoration: none;
+
+}
+.refreshBtn:hover {
+    background: #4E3396  !important;
+    border: 1px solid #4E3396 ;
+    color: #fff;
+}
+.pop-up-content-wrap {
+    padding-bottom: 40px;
+}
+</style>
+<script async="" src="https://script.hotjar.com/modules.a3cb6dcf71aec7e1a87f.js" charset="utf-8"></script></head>
+
+<body class="loginBg" style="height: auto;">
+<div class="wrapper" style="">
+<style>
+    .loginReg .login-inner-form .alert-success {
+    margin-top: -43px;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+</style>
+    <div class="container">
+
+        <div class="loginReg">
+            <div class="row loginBox">
+
+                <div class="col-lg-5 col-md-12 col-sm-12 col-pad-0 bg-img align-self-center none-992">
+
+            <a href="https://dev.kredsafe.net" title="KredSafe">
+            <img src="https://dev.kredsafe.net/img/logo.png" class="logo" alt="KredSafe">
+        </a>
+        <h1><span>Welcome</span></h1>
+    <p>Simple. Centralized. Credential Concierge services for and by professionals.</p>
+    <p>Connect. Anytime. Anywhere. Your credentials are secure and managed with KredSafe.</p>
+            <p style="font-weight: bold;">Two-Factor Authentication is On</p>
+    </div>
+
+                <div class="col-lg-7 col-md-12 col-sm-12 col-pad-0 align-self-center">
+                    <div class="login-inner-form">
+
+                        <div class="details">
+                            <h2 id="loginFormHeading">Sign into your Account</h2>
+
+                                                                                            <div class="alert alert-danger" style="display: none;" id="timerLogin">
+                                    <ul>
+                                        <li> Too many login attempts. Please try again in <span id="countdowntimer">60 </span> seconds.
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="alert alert-danger" id="clientSideErrors" style="display: none;">
+                                    <ul class="error_items">
+                                        Invalid Details
+                                    </ul>
+                                </div>
+
+
+
+                                <form method="POST" id="loginForm" action="https://dev.kredsafe.net/login" class="frm_submit">
+                                    <input type="hidden" name="_token" value="AdZh0t9K1Pk5IU9t5ai30CkGNS8ugeiWqhHMMGyI">                                    <div class="form-group">
+                                        <i class="iconInput fas fa-user"></i>
+
+                                        <input id="email" type="email" name="email" value="" required="" autocomplete="email" autofocus="" val_error_msg="E-mail Address is required." maxlength="50"><span class="val_error"></span>
+                                        <label for="email" class="control-label">E-mail Address&nbsp;<span class="starReq">*</span></label><i class="bar"></i>
+                                    </div>
+                                    <div class="form-group inputLastFrm passwordFild">
+                                        <i class="iconInput fas fa-lock"></i>
+                                        <input type="password" name="password" id="passwordLeft" required="required" val_error_msg="Password is required." maxlength="50"><span class="val_error"></span>
+                                        <span toggle="#passwordLeft" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                                        <label for="passwordLeft" class="control-label">Password&nbsp;<span class="starReq">*</span></label><i class="bar"></i>
+                                    </div>
+
+                                                                        <div class="row remForgotPass otpInfo" style="display: none;">
+
+
+                                        <div class="col-md-12 text-left">
+                                            <div class="otpTitle">Send OTP via</div>
+                                            <div class="checkbox">
+                                                <label for="via_sms">
+                                                    <input type="radio" name="otp_via1" value="via_sms" id="via_sms"><i class="helper"></i> SMS
+                                                </label>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label for="via_email">
+                                                    <input type="radio" name="otp_via1" value="via_email" id="via_email" checked=""><i class="helper"></i> E-mail Address
+                                                </label>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <input type="hidden" name="otp_via" value="via_email" id="via_email">
+                                    
+
+                                    <div class="row remForgotPass">
+                                        <div class="col-md-6">
+                                            <div class="checkbox">
+
+                                                <label for="customCheck" title="Remember me">
+                                                    <input type="checkbox" id="customCheck"><i class="helper"></i>&nbsp;
+                                                    Remember me
+                                                </label>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 text-right"><a href="https://dev.kredsafe.net/password/reset" class="forgotPass" title="Forgot Password">Forgot
+                                                Password</a></div>
+
+                                    </div>
+
+
+                                    <div class="form-group inputLastFrm">
+                                        <button class="button btn btn-block" type="submit" id="id_frm_submit" title="Login">
+                                            <span>Login</span>
+                                        </button>
+
+                                    </div>
+                                </form>
+<!--                                <p><a href="" data-toggle="modal" data-target="#opt"
+                                      title="Login by OTP  on your registered mobile number">Login by <b>OTP</b> on your
+                                        registered mobile number</a></p>-->
+                                <p>Don't have an account?<a href="https://dev.kredsafe.net/users/register/options" title="Register here">
+                                        Register here</a></p>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./wrapper -->
+    <!-- modal -->
+    <div class="modal fade" data-backdrop="static" id="opt">
+        <div class="modal-dialog modal-dialog-centered">
+
+
+            <div class="modal-content">
+
+                <form method="POST" id="sendotpForm" action="https://dev.kredsafe.net/sendotp">
+                    <input type="hidden" name="_token" value="AdZh0t9K1Pk5IU9t5ai30CkGNS8ugeiWqhHMMGyI">                    <div class="modal-body">
+                        <div class="card-header popOtherTitle">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">×</span>
+                                                            </button>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3 class="card-title popUpTitle ">Mobile Number Verification</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <i class="iconInput  fas fa-phone-alt"></i>
+                                <input id="phone" type="text" oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" name="number" required="required" maxlength="10">
+                                <label for="phone" class="control-label">Mobile Number&nbsp;<span class="starReq">*</span></label><i class="bar"></i>
+                            </div>
+                            <div class="alert alert-danger" id="clientSideErrorsOTP" style="display: none;margin-top: 4px !important;margin-bottom: 0;">
+                                <ul class="error_items">
+                                    Invalid Details
+                                </ul>
+                            </div>
+                            <div id="sendotpMsg" style="margin-top: 0px !important; margin-bottom:0!important;" class="alert alert-success">
+
+                            </div>
+                            <br>
+                            <div class="modal-footer justify-content-between1 modalFooterOTP">
+                                <button type="button" id="closebotton" class="btn btn-default closebotton" data-dismiss="modal" title="Close">Close
+                                </button>
+
+                                <button class="btn button" type="submit" title="Send OTP" id="sendotpbtn">
+                                    <span>Send OTP</span>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+
+                <form method="POST" style="display: none;" id="otpVerificationForm" action="https://dev.kredsafe.net/verify-otp">
+                    <input type="hidden" name="_token" value="AdZh0t9K1Pk5IU9t5ai30CkGNS8ugeiWqhHMMGyI">                    <input type="hidden" name="phone" id="phoneVerify" value="">
+                    <div class="modal-body">
+                        <div class="card-header popOtherTitle">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">×</span>
+                                                            </button>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3 class="card-title popUpTitle ">OTP Verification</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="alert alert-danger" id="clientSideErrorsOTP" style="display: none;">
+                            <ul class="error_items">
+                                Invalid Details
+                            </ul>
+                        </div>
+                        <div id="sendotpMsg" style="margin-top: 0px !important; margin-bottom:0!important; display: none; " class="alert alert-success">
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <i class="iconInput fas fa-user"></i>
+                                <input type="text" id="otp" name="otp" value="" required="required">
+                                <span class="val_error" id="val_error_otp"></span><span class="val_error" id="sent_otp_msg" style="color:green;font-weight: bold;"></span>
+                                <label for="otp" class="control-label">OTP&nbsp;<span class="starReq">*</span></label><i class="bar"></i>
+                                <a href="javascript:" style="float: right; font-size: 15px; font-weight: bold;" id="resendOTP">Resend</a>
+                                <p style="font-size: 11px;clear: both;margin: 0px;" id="otpTimeMsg">OTP will expire in 10 mins.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-between ">
+                        <button type="button" id="closebotton1" class="btn btn-default closebotton" data-dismiss="modal" title="Close">Close
+                        </button>
+
+                        <button class="btn button" type="submit" title="Submit">
+                            <span>Submit</span>
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <!-- modal -->
+    <div class="modal fade" id="verify_email">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <h2>Verify e-mail address</h2>
+                    <br>
+                    <div class="form-group">
+                        <i class="iconInput fas fa-user"></i>
+                        <input id="email_add" type="text" required="required">
+                        <label for="email_add" class="control-label">E-mail addres&nbsp;<span class="starReq">*</span></label><i class="bar"></i>
+                    </div>
+                </div>
+                <br>
+                <div class="modal-footer justify-content-between">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" title="Close">Close</button>
+                    <a href="register.html" type="button" class="btn button" title="Send"> <span>Send </span> </a>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <div class="toast msgPopUpCenter" role="alert" aria-live="assertive" aria-atomic="true" data-delay="5000" style="display: none;">
+
+                <div class="toast-body">
+            <div class="toastTop" style="">Success !</div>
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close" title="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+            <p class="message-content-center-left">
+                <span id="flashMsgTxt"></span>
+            </p>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+
+    </script>
+</div>
+<div class="custom-model-main model-open crash_popup" style="display: none;">
+    <div class="custom-model-inner">
+
+        <div class="custom-model-wrap">
+            <div class="pop-up-content-wrap">
+              <div class="networkImg">
+                <img src="https://dev.kredsafe.net/img/network_issue.png" alt="">
+              </div>
+              <h1 class="networkMsg">
+                Your connection is weak, Please try again later
+              </h1>
+              <a href="javascript:location.reload();" class="refreshBtn ">Refresh your page </a>
+            </div>
+        </div>
+    </div>
+    <div class="bg-overlay"></div>
+</div>
+<!-- Loader starts here -->
+<div class="loader" style="display: none;">
+    <div class="lds-spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- Loader Ends here -->
+
+<!-- jQuery -->
+<script src="https://dev.kredsafe.net/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="https://dev.kredsafe.net/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Select2 -->
+
+<link rel="stylesheet" href="https://dev.kredsafe.net/css/bootstrap-datepicker.min.css?1754282657"><iframe id="_hjSafeContext_71731686" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="about:blank" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe>
+<script src="https://dev.kredsafe.net/js/bootstrap-datepicker.min.js"></script>
+
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="https://dev.kredsafe.net/plugins/tempusdominus-bootstrap-4/moment.min.js"></script>
+<script src="https://dev.kredsafe.net/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- DataTables -->
+<script src="https://dev.kredsafe.net/plugins/datatables/jquery.dataTables.js"></script>
+<script src="https://dev.kredsafe.net/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<!-- AdminLTE App -->
+<script src="https://dev.kredsafe.net/js/adminlte.min.js"></script>
+
+<script src="https://dev.kredsafe.net/js/annashae_custom.js?1754282657"></script>
+<script src="https://dev.kredsafe.net/js/password-validate.js?1754282657"></script>
+
+<!-- Page script -->
+
+<link href="https://dev.kredsafe.net/css/select2.min.css" rel="stylesheet">
+<script src="https://dev.kredsafe.net/js/select2.min.js"></script>
+<script>
+        var ss = document.styleSheets;
+        var styleSheetLoaded = 0;
+        var urlSpec = 'https://dev.kredsafe.net/css/style.css';
+        for (var ii = 0, max = ss.length; ii < max; ii++) {
+             if (ss[ii].href != null && ss[ii].href.indexOf(urlSpec) >=0 ){
+                styleSheetLoaded = 1;
+                break;
+             }
+        }
+        if( styleSheetLoaded == 0){
+            //alert('It appears there may be a problem with your internet connection or server connectivity. Please refresh the page.');
+            $(".crash_popup").show();
+        }else{
+            $('.wrapper').show();
+        }
+</script>
+
+
+
+
+
+</body></html>
