@@ -21,7 +21,7 @@ await page.evaluate(() => {
   const nextButton = buttons.find(btn => btn.textContent.trim() === 'Next');
   if (nextButton) nextButton.click();
 });    await page.waitForLoadState('networkidle');
-
+//submit click
 await page.evaluate(() => {
   const buttons = Array.from(document.querySelectorAll('button'));
   const submitButton = buttons.find(btn => btn.textContent.trim() === 'Submit');
