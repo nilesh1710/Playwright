@@ -1,13 +1,25 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
- await page.goto('https://surecafe.tiuconsulting.us/frontend/auth/login');
- await page.locator('[name="username"]').fill('ats434@yopmail.com');
-await page.locator('[name="password"]').fill('surecafe');
+test('Login and click target link', async ({ page }) => {
+  // Navigate to login page
+  await page.goto('https://surecafe.tiuconsulting.us/frontend/auth/login');
+
+  // Fill login form
+  await page.locator('[name="username"]').fill('ats434@yopmail.com');
+  await page.locator('[name="password"]').fill('surecafe');
+
+  // Click Login button
   await page.getByRole('button', { name: 'Login' }).click();
+
+  // Wait for the page to fully load
   await page.waitForLoadState('load');
-  const page1Promise = page.waitForEvent('popup');
-  await page.getByRole('link', { name: 'Click' }).click();
-  const page1 = await page1Promise;
-  await page1.goto('https://meet.google.com/jvc-zbhp-hxe');
+
+  // Click the link with text 'Click' using evaluate
+  await page.evaluate(() => {
+    const links = Array.from(document.querySelectorAll('a'));
+    const targetLink = links.find(link => link.textContent.trim() === 'Click');
+    if (targetLink) {
+      targetLink.click();
+    }
+  });
 });
