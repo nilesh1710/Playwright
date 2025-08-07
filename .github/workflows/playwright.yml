@@ -6,13 +6,13 @@ on:
       - staging
       - master
     paths:
-      - '**/Applyjob.spec.js'
+      - '**/login.spec.js'
   pull_request:
     branches:
       - staging
       - master
     paths:
-      - '**/Applyjob.spec.js'
+      - '**/login.spec.js'
 
 jobs:
   test:
@@ -35,7 +35,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Applyjob.spec.js test only
-        run: npx playwright test tests/Applyjob.spec.js
+        run: npx playwright test tests/login.spec.js
 
       - name: Upload Playwright report
         if: always()

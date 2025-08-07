@@ -7,4 +7,5 @@ test('test', async ({ page }) => {
  await page.locator('[name="username"]').fill('ats434@yopmail.com');
 await page.locator('[name="password"]').fill('surecafe');
   await page.getByRole('button', { name: 'Login' }).click();
+  //login succeffuly
 });
