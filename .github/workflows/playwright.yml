@@ -2,9 +2,9 @@ name: Playwright CI/CD
 
 on:
   push:
-    branches: [staging]
+    branches: [staging, master]
   pull_request:
-    branches: [staging]
+    branches: [staging, master]
 
 jobs:
   test:
@@ -62,4 +62,6 @@ jobs:
             cd /home/kredsafe/public_html/staging/ &&
             git checkout staging &&
             git pull origin staging
+          "
+
           
