@@ -11,7 +11,7 @@ test('Login and apply to a job', async ({ page }) => {
  const jobRow = page.getByRole('row', { name: /21 System Admin FTE\s*2025-03-24/ });
 const applyButton = jobRow.getByRole('button', { name: 'Apply Now' });
 
-//await applyButton.waitFor({ state: 'visible', timeout: 60000 });
+await applyButton.waitFor({ state: 'visible', timeout: 60000 });
 
 
 await applyButton.click();
