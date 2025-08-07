@@ -2,11 +2,15 @@ name: Playwright CI/CD
 
 on:
   push:
-    branches: [staging, master]
+    branches:
+      - staging
+      - master
     paths:
       - '**/Applyjob.spec.js'
   pull_request:
-    branches: [staging, master]
+    branches:
+      - staging
+      - master
     paths:
       - '**/Applyjob.spec.js'
 
