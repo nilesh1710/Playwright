@@ -4,11 +4,11 @@ on:
   push:
     branches: [staging, master]
     paths:
-      - '**/login.spec.js'
+      - '**/Applyjob.spec.js'
   pull_request:
     branches: [staging, master]
     paths:
-      - '**/login.spec.js'
+      - '**/Applyjob.spec.js'
 
 jobs:
   test:
@@ -30,8 +30,8 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Run login.spec.js test only
-        run: npx playwright test tests/login.spec.js
+      - name: Run Applyjob.spec.js test only
+        run: npx playwright test tests/Applyjob.spec.js
 
       - name: Upload Playwright report
         if: always()

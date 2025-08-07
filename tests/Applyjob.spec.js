@@ -12,5 +12,6 @@ test('Login and apply to a job', async ({ page }) => {
 const applyButton = jobRow.getByRole('button', { name: 'Apply Now' });
 
 //await applyButton.waitFor({ state: 'visible', timeout: 60000 });
+//Apply Button click
 await applyButton.click();
 });
