@@ -1,17 +1,19 @@
-name: Playwright Tests
- 
+name: Playwright CI/CD
+
 on:
   push:
-    branches: [ master ]
+    branches: [staging]
   pull_request:
-    branches: [ master ]
+    branches: [staging]
 
 jobs:
   test:
+    name: Run Playwright Tests
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -19,7 +21,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
@@ -32,7 +34,32 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: playwright-report
-          path: playwright-reportgit add .github/workflows/playwright.yml
+          path: playwright-report/
 
+  deploy:
+    name: Deploy to Staging
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.ref == 'refs/heads/staging'
+    env:
+      STAGING_URL: https://surecafe.tiuconsulting.us/frontend/auth/login
 
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H your.server.ip >> ~/.ssh/known_hosts
+
+      - name: Deploy via SSH
+        run: |
+          echo "Deploying to $STAGING_URL"
+          ssh -p 22 your_ssh_user@your.server.ip "
+            cd /home/kredsafe/public_html/staging/ &&
+            git checkout staging &&
+            git pull origin staging
+          

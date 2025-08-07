@@ -16,10 +16,9 @@ test('Login and click target link', async ({ page }) => {
 
   // Click the link with text 'Click' using evaluate
   await page.evaluate(() => {
-    const links = Array.from(document.querySelectorAll('a'));
-    const targetLink = links.find(link => link.textContent.trim() === 'Click');
-    if (targetLink) {
-      targetLink.click();
-    }
-  });
+  const links = Array.from(document.querySelectorAll('a'));
+  const targetLink = links.find(link => link.textContent.trim() === 'Click');
+  if (targetLink) targetLink.click();
+});
+await page.waitForLoadState('load'); // or 'networkidle' depending on your app
 });
