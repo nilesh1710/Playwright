@@ -5,12 +5,12 @@ on:
     branches:
       - staging
     paths:
-      - '**/tests/Meetinglink.spec.js'
+      - '**/tests/Deleteaccount.spec.js'
   pull_request:
     branches:
       - staging
     paths:
-      - '**/tests/Meetinglink.spec.js'
+      - '**/tests/Deleteaccount.spec.js'
 
 jobs:
   test:
@@ -32,8 +32,8 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Run Meetinglink.spec.js test only
-        run: npx playwright test tests/Meetinglink.spec.js
+      - name: Run Deleteaccount.spec.js test only
+        run: npx playwright test tests/Deleteaccount.spec.js
 
       - name: Upload Playwright report
         if: always()
