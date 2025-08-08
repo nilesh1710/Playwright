@@ -14,7 +14,7 @@ test('Resume upload test', async ({ page }) => {
 
   await page.locator('.ngx-overlay').waitFor({ state: 'hidden' });
 
-
+//upload resume
 
 await page.evaluate(() => {
   const elements = Array.from(document.querySelectorAll('*'));
