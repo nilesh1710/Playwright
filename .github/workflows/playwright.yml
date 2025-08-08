@@ -5,12 +5,12 @@ on:
     branches:
       - staging
     paths:
-      - '**/uploadresume.spec.js'
+      - '**/tests/searchjobapply.spec.js'
   pull_request:
     branches:
       - staging
     paths:
-      - '**/uploadresume.spec.js'
+      - '**/tests/searchjobapply.spec.js'
 
 jobs:
   test:
@@ -32,8 +32,8 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Run uploadresume.spec.js test only
-        run: npx playwright test tests/uploadresume.spec.js
+      - name: Run searchjobapply.spec.js test only
+        run: npx playwright test tests/utests/searchjobapply.spec.js
 
       - name: Upload Playwright report
         if: always()
