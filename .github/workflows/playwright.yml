@@ -6,13 +6,13 @@ on:
       - staging
       - master
     paths:
-      - '**/login.spec.js'
+      - '**/uploadresume.spec.js'
   pull_request:
     branches:
       - staging
       - master
     paths:
-      - '**/login.spec.js'
+      - '**/uploadresume.spec.js'
 
 jobs:
   test:
