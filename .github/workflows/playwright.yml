@@ -5,12 +5,12 @@ on:
     branches:
       - staging
     paths:
-      - '**/tests/searchjobapply.spec.js'
+      - '**/tests/logout.spec.js'
   pull_request:
     branches:
       - staging
     paths:
-      - '**/tests/searchjobapply.spec.js'
+      - '**/tests/logout.spec.js'
 
 jobs:
   test:
@@ -32,8 +32,8 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Run searchjobapply.spec.js test only
-        run: npx playwright test tests/utests/searchjobapply.spec.js
+      - name: Run logout.spec.jss test only
+        run: npx playwright test tests/utests/tests/logout.spec.js
 
       - name: Upload Playwright report
         if: always()
