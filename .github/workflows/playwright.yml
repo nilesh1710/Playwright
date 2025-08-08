@@ -32,8 +32,8 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Run logout.spec.jss test only
-        run: npx playwright test tests/utests/tests/logout.spec.js
+      - name: Run logout.spec.js test only
+        run: npx playwright test tests/logout.spec.js
 
       - name: Upload Playwright report
         if: always()
