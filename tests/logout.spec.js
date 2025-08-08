@@ -15,7 +15,7 @@ await page.locator('[name="password"]').fill('surecafe');
     if (smLink) smLink.click();
   }),
 ]);
-
+//logout
 await page.waitForTimeout(2000);
 
 const logoutLink = page.locator('text=Log out');
