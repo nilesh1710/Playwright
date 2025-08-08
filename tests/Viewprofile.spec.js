@@ -10,7 +10,6 @@ await page.locator('[name="password"]').fill('surecafe');
  await page.goto('https://surecafe.tiuconsulting.us/frontend/profile/view');
    await page.waitForLoadState('networkidle');
 
-// XPath-based locators
 await page.evaluate(() => {
   const clickByText = (tag, text) => {
     const elements = Array.from(document.querySelectorAll(tag));
@@ -24,14 +23,12 @@ await page.evaluate(() => {
     el.click();
   };
 
-  // Click elements by text inside 'a' tags
   clickByText('a', 'Experience');
   scrollAndClick(Array.from(document.querySelectorAll('a')).find(e => e.textContent.trim() === 'Certification Process'));
   scrollAndClick(Array.from(document.querySelectorAll('a')).find(e => e.textContent.trim() === 'Additional Projects'));
   scrollAndClick(Array.from(document.querySelectorAll('a')).find(e => e.textContent.trim() === 'View Resume'));
   scrollAndClick(Array.from(document.querySelectorAll('a')).find(e => e.textContent.trim() === 'Education'));
 
-  // Click the logo image by src attribute
   scrollAndClick(document.querySelector('img[src="assets/image/logo.svg"]'));
 });
 });
