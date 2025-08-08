@@ -12,13 +12,9 @@ test('login and open meeting link', async ({ page }) => {
     page.getByRole('button', { name: 'Login' }).click(),
   ]);
 
-  // Instead of checking URL, wait for some logged-in element
   await expect(page.locator('a[role="link"][name="Profile"]')).toBeVisible({ timeout: 10000 });
 
-  // Proceed with popup and meeting link
-//  const popupPromise = page.waitForEvent('popup');
- // await page.getByRole('link', { name: 'Click' }).click();
- // const popup = await popupPromise;
+
 
   await popup.waitForLoadState('load');
 
