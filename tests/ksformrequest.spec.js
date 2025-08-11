@@ -44,7 +44,7 @@ test('Fill and submit facility request form', async ({ page }) => {
   await page.waitForSelector('#email', { timeout: 10000 });
   await page.locator('#email').fill(email);
 
-  // Fill phone with events
+  // Fill phone 
   await page.evaluate((value) => {
     const input = document.querySelector('#phone');
     if (input) {
@@ -54,7 +54,7 @@ test('Fill and submit facility request form', async ({ page }) => {
     }
   }, phone);
 
-  // Fill address textarea with events
+  // Fill address textarea 
   await page.evaluate((value) => {
     const textarea = document.querySelector('textarea[name="address"]');
     if (textarea) {
@@ -70,6 +70,6 @@ await page.evaluate(() => {
     uploadInput.click();
   }
 });
-  // Scroll down 
+  // Scroll down  to element
   await page.keyboard.press('PageDown');
 });
