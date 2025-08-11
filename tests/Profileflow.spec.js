@@ -9,12 +9,14 @@ test('test', async ({ page }) => {
    // Wait for and click Profile
  await page.goto('https://surecafe.tiuconsulting.us/frontend/profile/dashboard');
   await page.waitForLoadState('networkidle');
+////submit nect button
 
 await page.evaluate(() => {
   const buttons = Array.from(document.querySelectorAll('button'));
   const nextButton = buttons.find(btn => btn.textContent.trim() === 'Next');
   if (nextButton) nextButton.click();
 });    await page.waitForLoadState('networkidle');
+//submit nect button
 
 await page.evaluate(() => {
   const buttons = Array.from(document.querySelectorAll('button'));
