@@ -5,8 +5,9 @@ test('test', async ({ page }) => {
  await page.locator('[name="username"]').fill('ats434@yopmail.com');
 await page.locator('[name="password"]').fill('surecafe');
   await page.getByRole('button', { name: 'Login' }).click();
+  //login 
   await page.waitForLoadState('load');
-
+//wait for profile
  await page.goto('https://surecafe.tiuconsulting.us/frontend/profile/view');
    await page.waitForLoadState('networkidle');
 
