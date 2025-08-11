@@ -4,12 +4,13 @@ test('test', async ({ page }) => {
  await page.goto('https://surecafe.tiuconsulting.us/frontend/auth/login');
   await page.locator('input[name="username"]').fill('ats434@yopmail.com');
   await page.locator('input[name="password"]').fill('surecafe');
+  //login
   await page.getByRole('button', { name: 'Login' }).click();
   await page.waitForLoadState('networkidle');
    // Wait for and click Profile
  await page.goto('https://surecafe.tiuconsulting.us/frontend/profile/dashboard');
   await page.waitForLoadState('networkidle');
-////submit nect button
+//submit nect button
 
 await page.evaluate(() => {
   const buttons = Array.from(document.querySelectorAll('button'));
