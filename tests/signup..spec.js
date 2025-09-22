@@ -32,6 +32,5 @@ const signupButton = page.getByRole('button', { name: 'Sign Up' });
 await signupButton.scrollIntoViewIfNeeded();
 await signupButton.click();
 
-  // Wait for success or confirmation
   await page.waitForTimeout(5000); // Replace with actual wait if possible
 });

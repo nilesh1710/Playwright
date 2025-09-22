@@ -24,13 +24,12 @@ await page.goto('https://surecafe.tiuconsulting.us/frontend/profile/home');
   await page.waitForSelector('text=Welcome', { timeout: 5000 }); // change text as needed
 
   // 4. Try broader locator for file input
-  const fileInput = page.locator('input[type="file"]');
-  const isInputPresent = await fileInput.count();
- 
-  // 5. Upload fie
-
-await page.locator('input[type="file"]').setInputFiles(filePath);
-
+ await page.evaluate(() => {
+  const fileInput = document.querySelector('input[type="file"]');
+  if (fileInput) {
+    fileInput.click(); // Optional: only if clicking is needed before uploading
+  }
+});
   // 6. Optional: Confirm success or wait for image preview
   await page.waitForTimeout(1000);
 });

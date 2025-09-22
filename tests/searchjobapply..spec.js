@@ -2,14 +2,11 @@ import { test, expect } from '@playwright/test';
 
 test('test', async ({ page }) => {
   await page.goto('https://surecafe.tiuconsulting.us/frontend/');
-  await page.locator('html').click();
+  await page.goto('https://surecafe.tiuconsulting.us/frontend/auth/login');
+ await page.locator('[name="username"]').fill('ats434@yopmail.com');
+await page.locator('[name="password"]').fill('surecafe');
   await page.getByRole('button', { name: 'Login' }).click();
-  await page.locator('input[name="username"]').click();
-  await page.locator('input[name="username"]').fill('ats51@yopmail.com');
-  await page.locator('input[name="password"]').click();
-  await page.locator('input[name="password"]').fill('surecafe');
-  await page.getByRole('button', { name: 'Login' }).click();
-
+  //login succeffuly
 // Locate the search input field and ensure it's visible
   const searchInput = page.locator('input[type="text"]:visible');
   await expect(searchInput).toBeVisible({ timeout: 10000 });
@@ -25,10 +22,7 @@ await page.evaluate(() => {
   if (element) element.click();
 })
 
-  // Wait for navigation to complete
-  //await page.waitForLoadState('networkidle');
 
-  // Locate and click the logo to return to the homepage
 const logo = page.locator('img[src="assets/image/logo.svg"]');
 await logo.click();
 await page.evaluate(() => {
@@ -37,16 +31,9 @@ await page.evaluate(() => {
   const logo = result.singleNodeValue;
   if (logo) logo.click();
 });
-  // Wait for navigation to complete
-  //await page.waitForLoadState('networkidle');
 
-  // Locate and click on the 'Data engineer' job link
  const dataEngineerLink = page.locator('section.jobs-list a:has-text("Data engineer")');
- // await expect(dataEngineerLink).toBeVisible({ timeout: 10000 });
-  //await dataEngineerLink.click({ timeout: 60000 });
 
-
-  //await page.waitForLoadState('networkidle');
 
   await logo.click();
 });
