@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('Verify login logout', async ({ page }) => {
-      test.setTimeout(60000); // 60 seconds
+      test.setTimeout(60000); // 60 seconds only
 
   await page.goto('https://dev.kredsafe.net/login');
   await page.locator('//input[@name="email"]').fill('hrd786@yopmail.com');
