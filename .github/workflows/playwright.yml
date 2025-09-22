@@ -1,20 +1,13 @@
-name: Playwright CI - Viewprofile Test
+name: Run Playwright Tests and Push Results
 
 on:
   push:
     branches:
-      - staging
-    paths:
-      - 'tests/Viewprofile.spec.js'
-  pull_request:
-    branches:
-      - staging
-    paths:
-      - 'tests/Viewprofile.spec.js'
+      - master
+  workflow_dispatch:
 
 jobs:
-  test:
-    name: Run Viewprofile.spec.js Test
+  test-and-push:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,20 +17,33 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: '18'
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Playwright browsers
+      - name: Install Playwright
         run: npx playwright install --with-deps
 
-      - name: Run Playwright Viewprofile test
-        run: npx playwright test tests/Viewprofile.spec.js
+      - name: Run ONLY loginlogout.spec.js
+        run: npx playwright test tests/loginlogout.spec.js
 
-      - name: Upload Playwright report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: playwright-report
-          path: playwright-report/
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit test results
+        run: |
+          git add -f allure-results/ test-results/ || echo "Nothing to add"
+          git commit -m "Auto-push: Playwright test results" || echo "No changes to commit"
+
+      - name: Push results to master
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          git push https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }} HEAD:master
+
+
+
+

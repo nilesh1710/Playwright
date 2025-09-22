@@ -2,15 +2,14 @@ import { test, expect } from '@playwright/test';
 
 test('Verify Notes', async ({ page }) => {
       test.setTimeout(60000); // 60 seconds
-
   await page.goto('https://dev.kredsafe.net/');
   await page.getByRole('textbox', { name: 'E-mail Address *' }).click();
-  await page.getByRole('textbox', { name: 'E-mail Address *' }).fill('ts1234@yopmail.com');
+  await page.getByRole('textbox', { name: 'E-mail Address *' }).fill('swapj@yopmail.com');
   await page.getByRole('textbox', { name: 'Password *' }).click();
   await page.getByRole('textbox', { name: 'Password *' }).fill('Nilesh@2025');
   await page.getByRole('button', { name: 'Login' }).click();
   await page.waitForLoadState('load');
- await page.goto('https://dev.kredsafe.net/user/comments/view/Document/NDkz');
+ await page.goto('https://dev.kredsafe.net/user/comments/view/User/MTY1MQ==');
    await page.waitForLoadState('load');
 
 //await page.getByRole('textbox', { name: 'Message' }).scrollIntoViewIfNeeded();
