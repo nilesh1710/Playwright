@@ -1,0 +1,47 @@
+--- Frames at 2025-08-21T10:50:27.284Z ---
+Frame info error: frame.frameElement: Frame has been detached.
+    at waitAndLogIframes (C:\Users\Admin\AppData\Local\ms-playwright\tests-examples\my-playwright-kredsafe\tests\subscriptionpayment.spec.js:60:32)
+    at C:\Users\Admin\AppData\Local\ms-playwright\tests-examples\my-playwright-kredsafe\tests\subscriptionpayment.spec.js:76:2 {
+  name: 'Error'
+}
+Frame: {
+  title: '',
+  url: 'about:blank',
+  attrs: {
+    id: '_hjSafeContext_92396334',
+    title: '_hjSafeContext',
+    tabindex: '-1',
+    'aria-hidden': 'true',
+    src: 'about:blank',
+    style: 'display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;'
+  }
+}
+--- Frames at 2025-08-21T10:50:30.313Z ---
+Frame info error: frame.frameElement: Frame has been detached.
+    at waitAndLogIframes (C:\Users\Admin\AppData\Local\ms-playwright\tests-examples\my-playwright-kredsafe\tests\subscriptionpayment.spec.js:60:32)
+    at C:\Users\Admin\AppData\Local\ms-playwright\tests-examples\my-playwright-kredsafe\tests\subscriptionpayment.spec.js:76:2 {
+  name: 'Error'
+}
+Frame info error: frame.frameElement: Frame has been detached.
+    at waitAndLogIframes (C:\Users\Admin\AppData\Local\ms-playwright\tests-examples\my-playwright-kredsafe\tests\subscriptionpayment.spec.js:60:32)
+    at C:\Users\Admin\AppData\Local\ms-playwright\tests-examples\my-playwright-kredsafe\tests\subscriptionpayment.spec.js:76:2 {
+  name: 'Error'
+}
+--- Frames at 2025-08-21T10:50:34.622Z ---
+Frame info error: frame.frameElement: Frame has been detached.
+    at waitAndLogIframes (C:\Users\Admin\AppData\Local\ms-playwright\tests-examples\my-playwright-kredsafe\tests\subscriptionpayment.spec.js:60:32)
+    at C:\Users\Admin\AppData\Local\ms-playwright\tests-examples\my-playwright-kredsafe\tests\subscriptionpayment.spec.js:76:2 {
+  name: 'Error'
+}
+--- Frames at 2025-08-21T10:50:37.639Z ---
+Frame info error: frame.frameElement: Frame has been detached.
+    at waitAndLogIframes (C:\Users\Admin\AppData\Local\ms-playwright\tests-examples\my-playwright-kredsafe\tests\subscriptionpayment.spec.js:60:32)
+    at C:\Users\Admin\AppData\Local\ms-playwright\tests-examples\my-playwright-kredsafe\tests\subscriptionpayment.spec.js:76:2 {
+  name: 'Error'
+}
+--- Frames at 2025-08-21T10:50:40.653Z ---
+Frame info error: frame.frameElement: Frame has been detached.
+    at waitAndLogIframes (C:\Users\Admin\AppData\Local\ms-playwright\tests-examples\my-playwright-kredsafe\tests\subscriptionpayment.spec.js:60:32)
+    at C:\Users\Admin\AppData\Local\ms-playwright\tests-examples\my-playwright-kredsafe\tests\subscriptionpayment.spec.js:76:2 {
+  name: 'Error'
+}

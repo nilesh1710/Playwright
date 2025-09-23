@@ -1,0 +1,2 @@
+Add to cart successfully
+🛒 JS click on cart icon successful

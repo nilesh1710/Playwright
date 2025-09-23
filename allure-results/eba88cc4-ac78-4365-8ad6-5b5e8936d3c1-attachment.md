@@ -1,0 +1,83 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "KredSafe":
+        - /url: /
+        - img "KredSafe"
+    - listitem:
+      - img "KredSafe"
+  - list:
+    - listitem: "Previous Login: 55 seconds ago"
+    - listitem:
+      - link " .":
+        - /url: "#"
+    - listitem:
+      - link "Vivek Raut Vivek Raut":
+        - /url: "#"
+        - img "Vivek Raut"
+        - text: Vivek Raut
+- complementary:
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://dev.kredsafe.net/user/home
+          - img "Home":
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/overview
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/documents
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/credentials
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/notes
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es_forms
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es-packets
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/subscriptions
+- paragraph
+- link "You have 5 step(s) to complete":
+  - /url: undefined
+  - heading "You have 5 step(s) to complete" [level=3]
+- paragraph
+- progressbar: 44%
+- heading "Internship" [level=1]
+- list:
+  - listitem:
+    - link "Dashboard":
+      - /url: "https://dev.kredsafe.net/admin/home "
+  - listitem: "> Internship"
+- button "View Archive of Internship"
+- text: Internship
+- img:
+  - img
+- link "Back":
+  - /url: https://dev.kredsafe.net/user/professional-education
+  - button "Back"
+- button "Add Another"
+- button "Save & Continue"
+- contentinfo: © Copyright by KredSafe. All Rights Reserved.
+```

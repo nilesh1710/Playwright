@@ -1,0 +1,2 @@
+Add to cart successfully
+✅ Confirm & Pay button clicked using JS

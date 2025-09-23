@@ -1,0 +1,29 @@
+# Page snapshot
+
+```yaml
+- main:
+  - heading "Streamline your talent acquisition processes seamlessly in one platform!" [level=2]
+  - paragraph: Login now to manage all services and user-friendly experience.
+  - list:
+    - listitem: Login
+    - listitem: Sign Up
+  - link "Logo Image":
+    - /url: index.html
+    - img "Logo Image"
+  - heading "Welcome back to SureCafe" [level=1]
+  - paragraph: Login to your account
+  - paragraph: No response received from server
+  - button "Sign in with Google. Opens in new tab":
+    - img
+    - text: Sign in with Google
+  - iframe
+  - button "Sign in with Google. Opens in new tab"
+  - button "Sign in with Facebook"
+  - text: OR Email
+  - textbox: ats434@yopmail.com
+  - text: Password
+  - textbox: surecafe
+  - link "Forgot Password":
+    - /url: /frontend/auth/forgot-password
+  - button "Login"
+```

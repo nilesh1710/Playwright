@@ -1,0 +1,10 @@
+Frame title: KredSafe: A Credentialing Concierge Service URL: https://dev.kredsafe.net/login
+Frame title:  URL: about:blank
+Frame element attributes: {
+  id: '_hjSafeContext_63836614',
+  title: '_hjSafeContext',
+  tabindex: '-1',
+  'aria-hidden': 'true',
+  src: 'about:blank',
+  style: 'display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;'
+}

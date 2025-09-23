@@ -1,0 +1,626 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "KredSafe":
+        - /url: /
+        - img "KredSafe"
+    - listitem:
+      - img "KredSafe"
+  - list:
+    - listitem: "Previous Login: 55 seconds ago"
+    - listitem:
+      - link " .":
+        - /url: "#"
+    - listitem:
+      - link "Sam Hoston Sam Hoston":
+        - /url: "#"
+        - img "Sam Hoston"
+        - text: Sam Hoston
+- complementary:
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://dev.kredsafe.net/user/home
+          - img "Home":
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/overview
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/documents
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/credentials
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/notes
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es_forms
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es-packets
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/subscriptions
+- paragraph
+- link "You have 9 step(s) to complete":
+  - /url: https://dev.kredsafe.net/user/overview
+  - heading "You have 9 step(s) to complete" [level=3]
+- paragraph
+- progressbar: 0%
+- heading "Personal Details" [level=1]
+- list:
+  - listitem:
+    - link "Dashboard":
+      - /url: "https://dev.kredsafe.net/admin/home "
+  - listitem: "> Personal Details"
+- img "User profile picture"
+- heading "Sam Hoston" [level=3]
+- button " Upload Image"
+- button "Choose File"
+- text: File types allowed - .jpeg / .jpg / .png / .gif (Max file size - 1 MB) FH2001737
+- paragraph: Auto save feature is turned on, any information entered will be auto saved.
+- text: 
+- combobox "Select Salutation Mr. Ms. Mrs. Dr. Prof. Mx.":
+  - option "Select Salutation" [selected]
+  - option "Mr."
+  - option "Ms."
+  - option "Mrs."
+  - option "Dr."
+  - option "Prof."
+  - option "Mx."
+- text: Salutation 
+- textbox "First Name *": Sam
+- text: First Name * 
+- textbox "Middle Name"
+- text: Middle Name 
+- textbox "Last Name *": Hoston
+- text: Last Name * 
+- textbox "Date of Birth *": 11/11/1990
+- text: Date of Birth * 
+- textbox "Social Security Number (SSN) *": 123-45-67
+- text: SSN must have 9 digits.  Social Security Number (SSN) *  (+1)
+- textbox "Mobile Number *": "76230001511"
+- text: Mobile Number * 
+- textbox "Home Phone"
+- text: Home Phone 
+- textbox "E-mail Address *": ts901811@yopmail.com
+- text: E-mail Address *
+- radio "E-mail Address *" [checked] [disabled]
+- text: Primary 
+- textbox "d"
+- text: Alternate E-mail
+- radio "d"
+- text: Make it Primary 
+- textbox "Street Address 1": 5803 Olin Lane
+- text: Street Address 1 
+- textbox "Street Address 2"
+- text: Street Address 2 
+- textbox "Zip Code *": "124435"
+- text: Zip Code *
+- checkbox "Do not have zip code ?"
+- text: Do not have zip code ? 
+- combobox "Country *":
+  - option "Select Country"
+  - option "United States" [selected]
+  - option "Afghanistan"
+  - option "Åland Islands"
+  - option "Albania"
+  - option "Algeria"
+  - option "American Samoa"
+  - option "Andorra"
+  - option "Angola"
+  - option "Anguilla"
+  - option "Antarctica"
+  - option "Antigua & Barbuda"
+  - option "Argentina"
+  - option "Armenia"
+  - option "Aruba"
+  - option "Ascension Island"
+  - option "Australia"
+  - option "Austria"
+  - option "Azerbaijan"
+  - option "Bahamas"
+  - option "Bahrain"
+  - option "Bangladesh"
+  - option "Barbados"
+  - option "Belarus"
+  - option "Belgium"
+  - option "Belize"
+  - option "Benin"
+  - option "Bermuda"
+  - option "Bhutan"
+  - option "Bolivia"
+  - option "Bosnia & Herzegovina"
+  - option "Botswana"
+  - option "Brazil"
+  - option "British Indian Ocean Territory"
+  - option "British Virgin Islands"
+  - option "Brunei"
+  - option "Bulgaria"
+  - option "Burkina Faso"
+  - option "Burundi"
+  - option "Cambodia"
+  - option "Cameroon"
+  - option "Canada"
+  - option "Canary Islands"
+  - option "Cape Verde"
+  - option "Caribbean Netherlands"
+  - option "Cayman Islands"
+  - option "Central African Republic"
+  - option "Ceuta & Melilla"
+  - option "Chad"
+  - option "Chile"
+  - option "China"
+  - option "Christmas Island"
+  - option "Cocos (Keeling) Islands"
+  - option "Colombia"
+  - option "Comoros"
+  - option "Congo - Brazzaville"
+  - option "Congo - Kinshasa"
+  - option "Cook Islands"
+  - option "Costa Rica"
+  - option "Côte d’Ivoire"
+  - option "Croatia"
+  - option "Cuba"
+  - option "Curaçao"
+  - option "Cyprus"
+  - option "Czechia"
+  - option "Denmark"
+  - option "Diego Garcia"
+  - option "Djibouti"
+  - option "Dominica"
+  - option "Dominican Republic"
+  - option "Ecuador"
+  - option "Egypt"
+  - option "El Salvador"
+  - option "Equatorial Guinea"
+  - option "Eritrea"
+  - option "Estonia"
+  - option "Ethiopia"
+  - option "Eurozone"
+  - option "Falkland Islands"
+  - option "Faroe Islands"
+  - option "Fiji"
+  - option "Finland"
+  - option "France"
+  - option "French Guiana"
+  - option "French Polynesia"
+  - option "French Southern Territories"
+  - option "Gabon"
+  - option "Gambia"
+  - option "Georgia"
+  - option "Germany"
+  - option "Ghana"
+  - option "Gibraltar"
+  - option "Greece"
+  - option "Greenland"
+  - option "Grenada"
+  - option "Guadeloupe"
+  - option "Guam"
+  - option "Guatemala"
+  - option "Guernsey"
+  - option "Guinea"
+  - option "Guinea-Bissau"
+  - option "Guyana"
+  - option "Haiti"
+  - option "Honduras"
+  - option "Hong Kong SAR China"
+  - option "Hungary"
+  - option "Iceland"
+  - option "India"
+  - option "Indonesia"
+  - option "Iran"
+  - option "Iraq"
+  - option "Ireland"
+  - option "Isle of Man"
+  - option "Israel"
+  - option "Italy"
+  - option "Jamaica"
+  - option "Japan"
+  - option "Jersey"
+  - option "Jordan"
+  - option "Kazakhstan"
+  - option "Kenya"
+  - option "Kiribati"
+  - option "Kosovo"
+  - option "Kuwait"
+  - option "Kyrgyzstan"
+  - option "Laos"
+  - option "Latvia"
+  - option "Lebanon"
+  - option "Lesotho"
+  - option "Liberia"
+  - option "Libya"
+  - option "Liechtenstein"
+  - option "Lithuania"
+  - option "Luxembourg"
+  - option "Macau SAR China"
+  - option "Macedonia"
+  - option "Madagascar"
+  - option "Malawi"
+  - option "Malaysia"
+  - option "Maldives"
+  - option "Mali"
+  - option "Malta"
+  - option "Marshall Islands"
+  - option "Martinique"
+  - option "Mauritania"
+  - option "Mauritius"
+  - option "Mayotte"
+  - option "Mexico"
+  - option "Micronesia"
+  - option "Moldova"
+  - option "Monaco"
+  - option "Mongolia"
+  - option "Montenegro"
+  - option "Montserrat"
+  - option "Morocco"
+  - option "Mozambique"
+  - option "Myanmar (Burma)"
+  - option "Namibia"
+  - option "Nauru"
+  - option "Nepal"
+  - option "Netherlands"
+  - option "New Caledonia"
+  - option "New Zealand"
+  - option "Nicaragua"
+  - option "Niger"
+  - option "Nigeria"
+  - option "Niue"
+  - option "Norfolk Island"
+  - option "North Korea"
+  - option "Northern Mariana Islands"
+  - option "Norway"
+  - option "Oman"
+  - option "Pakistan"
+  - option "Palau"
+  - option "Palestinian Territories"
+  - option "Panama"
+  - option "Papua New Guinea"
+  - option "Paraguay"
+  - option "Peru"
+  - option "Philippines"
+  - option "Pitcairn Islands"
+  - option "Poland"
+  - option "Portugal"
+  - option "Puerto Rico"
+  - option "Qatar"
+  - option "Réunion"
+  - option "Romania"
+  - option "Russia"
+  - option "Rwanda"
+  - option "Samoa"
+  - option "San Marino"
+  - option "São Tomé & Príncipe"
+  - option "Saudi Arabia"
+  - option "Senegal"
+  - option "Serbia"
+  - option "Seychelles"
+  - option "Sierra Leone"
+  - option "Singapore"
+  - option "Sint Maarten"
+  - option "Slovakia"
+  - option "Slovenia"
+  - option "Solomon Islands"
+  - option "Somalia"
+  - option "South Africa"
+  - option "South Georgia & South Sandwich Islands"
+  - option "South Korea"
+  - option "South Sudan"
+  - option "Spain"
+  - option "Sri Lanka"
+  - option "St. Barthélemy"
+  - option "St. Helena"
+  - option "St. Kitts & Nevis"
+  - option "St. Lucia"
+  - option "St. Martin"
+  - option "St. Pierre & Miquelon"
+  - option "St. Vincent & Grenadines"
+  - option "Sudan"
+  - option "Suriname"
+  - option "Svalbard & Jan Mayen"
+  - option "Swaziland"
+  - option "Sweden"
+  - option "Switzerland"
+  - option "Syria"
+  - option "Taiwan"
+  - option "Tajikistan"
+  - option "Tanzania"
+  - option "Thailand"
+  - option "Timor-Leste"
+  - option "Togo"
+  - option "Tokelau"
+  - option "Tonga"
+  - option "Trinidad & Tobago"
+  - option "Tristan da Cunha"
+  - option "Tunisia"
+  - option "Turkey"
+  - option "Turkmenistan"
+  - option "Turks & Caicos Islands"
+  - option "Tuvalu"
+  - option "U.S. Outlying Islands"
+  - option "U.S. Virgin Islands"
+  - option "Uganda"
+  - option "Ukraine"
+  - option "United Arab Emirates"
+  - option "United Kingdom"
+  - option "Uruguay"
+  - option "Uzbekistan"
+  - option "Vanuatu"
+  - option "Vatican City"
+  - option "Venezuela"
+  - option "Vietnam"
+  - option "Wallis & Futuna"
+  - option "Western Sahara"
+  - option "Yemen"
+  - option "Zambia"
+  - option "Zimbabwe"
+- text: Country * 
+- combobox "State*":
+  - text: ">"
+  - option "Select State"
+  - option "Alabama"
+  - option "Alaska"
+  - option "American Samoa"
+  - option "Arizona"
+  - option "Arkansas"
+  - option "Armed Forces Middle East"
+  - option "Armed Forces Americas"
+  - option "Armed Forces Pacific"
+  - option "California"
+  - option "Colorado"
+  - option "Connecticut"
+  - option "Delaware"
+  - option "District of Columbia"
+  - option "Federated States Of Micronesia"
+  - option "Florida"
+  - option "Georgia"
+  - option "Guam"
+  - option "Hawaii"
+  - option "Idaho"
+  - option "Illinois"
+  - option "Indiana"
+  - option "Iowa"
+  - option "Kansas"
+  - option "Kentucky"
+  - option "Louisiana"
+  - option "Maine"
+  - option "Marshall Islands"
+  - option "Maryland"
+  - option "Massachusetts"
+  - option "Michigan"
+  - option "Minnesota"
+  - option "Mississippi"
+  - option "Missouri"
+  - option "Montana"
+  - option "Nebraska"
+  - option "Nevada"
+  - option "New Hampshire"
+  - option "New Jersey"
+  - option "New Mexico"
+  - option "New York"
+  - option "North Carolina"
+  - option "North Dakota"
+  - option "Northern Mariana Islands"
+  - option "Ohio" [selected]
+  - option "Oklahoma"
+  - option "Oregon"
+  - option "Palau"
+  - option "Pennsylvania"
+  - option "Puerto Rico"
+  - option "Rhode Island"
+  - option "South Carolina"
+  - option "South Dakota"
+  - option "Tennessee"
+  - option "Texas"
+  - option "Utah"
+  - option "Vermont"
+  - option "Virgin Islands"
+  - option "Virginia"
+  - option "Washington"
+  - option "West Virginia"
+  - option "Wisconsin"
+  - option "Wyoming"
+- text: State* 
+- textbox "City / Region *": Cincinnati
+- text: City / Region * 
+- combobox "Industry *":
+  - option "Select Industry"
+  - option "Administrative/Clerical"
+  - option "Agriculture, Forestry, & Fishing"
+  - option "Banking/Real Estate/Mortgage Professionals"
+  - option "Biotech/R&D/Science"
+  - option "Building Construction/Skilled Trades"
+  - option "Business/Strategic Management"
+  - option "Creative/Design"
+  - option "Customer Support/Client Care"
+  - option "Data Analysis"
+  - option "Editorial/Writing"
+  - option "education"
+  - option "Education/Training"
+  - option "Engineering"
+  - option "Food Services/Hospitality"
+  - option "Health"
+  - option "Healthcare" [selected]
+  - option "Human Resources"
+  - option "Installation/Maintenance/Repair"
+  - option "IT/Software Development"
+  - option "Logistics/Transportation"
+  - option "Managed-QA"
+  - option "Manufacturing/Production/Operations"
+  - option "Marketing/Product"
+  - option "Medical/Health Other Areas"
+  - option "Other"
+  - option "Pro"
+  - option "Project/Program Management"
+  - option "Quality Assurance/Safety"
+  - option "Sales/Retail/Business Development"
+  - option "Security/Protective Services"
+  - option "test"
+- text: Industry * 
+- combobox "Category *":
+  - option "Select Category"
+  - option "Allied Health" [selected]
+  - option "Dental Ancillary"
+  - option "Dentists"
+  - option "Nurse Practitioners"
+  - option "Nursing"
+  - option "Physician Assistants"
+  - option "Physicians"
+  - option "Psychologists"
+- text: Category * 
+- combobox:
+  - list:
+    - listitem "ACLS":
+      - button "Remove item"
+      - text: ACLS 
+    - listitem "Automobile Claim Law Specialist":
+      - button "Remove item"
+      - text: Automobile Claim Law Specialist 
+    - listitem "Cardiopulmonary resuscitation (CPR)":
+      - button "Remove item"
+      - text: Cardiopulmonary resuscitation (CPR) 
+    - listitem "CERNER":
+      - button "Remove item"
+      - text: CERNER 
+    - listitem "Emergency Room":
+      - button "Remove item"
+      - text: Emergency Room 
+    - listitem "ER":
+      - button "Remove item"
+      - text: ER 
+    - listitem "Management":
+      - button "Remove item"
+      - text: Management 
+    - listitem "Medical":
+      - button "Remove item"
+      - text: Medical 
+    - listitem "Medical License":
+      - button "Remove item"
+      - text: Medical License 
+    - listitem "Mentoring":
+      - button "Remove item"
+      - text: Mentoring 
+    - listitem "Psychiatry":
+      - button "Remove item"
+      - text: Psychiatry 
+    - listitem "Research":
+      - button "Remove item"
+      - text: Research 
+    - listitem "Risk Assessment":
+      - button "Remove item"
+      - text: Risk Assessment 
+    - listitem "Science":
+      - button "Remove item"
+      - text: Science 
+    - listitem "SED":
+      - button "Remove item"
+      - text: SED 
+    - listitem "Student Research Assistant":
+      - button "Remove item"
+      - text: Student Research Assistant 
+  - searchbox
+- text: Click on the key for changing primary specialty. Specialties *
+- link "Add New Specialty":
+  - /url: javascript:void(0);
+- text: Place of Birth
+- img:
+  - img
+- text: Citizenship
+- img:
+  - img
+- text: Other Name / Maiden Name
+- img:
+  - img
+- text: References
+- img:
+  - img
+- link "Cancel":
+  - /url: https://dev.kredsafe.net/user/home
+  - button "Cancel"
+- button "Save & Continue"
+- contentinfo: © Copyright by KredSafe. All Rights Reserved.
+- table:
+  - rowgroup:
+    - row
+    - row "« August 2025":
+      - cell "«"
+      - cell "August 2025"
+    - row "Mo Tu We Th Fr Sa Su":
+      - cell "Mo"
+      - cell "Tu"
+      - cell "We"
+      - cell "Th"
+      - cell "Fr"
+      - cell "Sa"
+      - cell "Su"
+  - rowgroup:
+    - row "28 29 30 31 1 2 3":
+      - cell "28"
+      - cell "29"
+      - cell "30"
+      - cell "31"
+      - cell "1"
+      - cell "2"
+      - cell "3"
+    - row "4 5 6 7 8 9 10":
+      - cell "4"
+      - cell "5"
+      - cell "6"
+      - cell "7"
+      - cell "8"
+      - cell "9"
+      - cell "10"
+    - row "11 12 13 14 15 16 17":
+      - cell "11"
+      - cell "12"
+      - cell "13"
+      - cell "14"
+      - cell "15"
+      - cell "16"
+      - cell "17"
+    - row "18 19 20 21 22 23 24":
+      - cell "18"
+      - cell "19"
+      - cell "20"
+      - cell "21"
+      - cell "22"
+      - cell "23"
+      - cell "24"
+    - row "25 26 27 28 29 30 31":
+      - cell "25"
+      - cell "26"
+      - cell "27"
+      - cell "28"
+      - cell "29"
+      - cell "30"
+      - cell "31"
+    - row "1 2 3 4 5 6 7":
+      - cell "1"
+      - cell "2"
+      - cell "3"
+      - cell "4"
+      - cell "5"
+      - cell "6"
+      - cell "7"
+  - rowgroup:
+    - row
+    - row
+```

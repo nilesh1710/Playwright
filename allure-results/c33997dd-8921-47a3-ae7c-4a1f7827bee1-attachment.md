@@ -1,0 +1,128 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link:
+    - /url: /frontend/profile/home
+    - img
+  - link:
+    - /url: javascript:void(0)
+  - list:
+    - listitem:
+      - link "SM":
+        - /url: "#"
+- navigation:
+  - paragraph: Smith Mac
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /frontend/profile/home
+        - img
+        - text: Home
+    - listitem:
+      - link "Profile":
+        - /url: /frontend/profile/dashboard
+        - img
+        - text: Profile
+    - listitem:
+      - link "Jobs":
+        - /url: /frontend/profile/candidate-jobs
+        - img
+        - text: Jobs
+- main:
+  - heading "Candidate Dashboard" [level=1]
+  - searchbox "Search"
+  - text: Job Applied Status
+  - table:
+    - rowgroup:
+      - row "Job Title Applying Date Status":
+        - columnheader "Job Title":
+          - button "Job Title"
+        - columnheader "Applying Date":
+          - button "Applying Date"
+        - columnheader "Status":
+          - button "Status"
+    - rowgroup:
+      - row "Test 2025-07-29 Applied":
+        - cell "Test":
+          - link "Test":
+            - /url: javascript:void(0);
+        - cell "2025-07-29"
+        - cell "Applied"
+      - row "Cloud Engineer 2025-07-29 Applied":
+        - cell "Cloud Engineer":
+          - link "Cloud Engineer":
+            - /url: javascript:void(0);
+        - cell "2025-07-29"
+        - cell "Applied"
+      - row "System Admin 2025-07-25 Applied":
+        - cell "System Admin":
+          - link "System Admin":
+            - /url: javascript:void(0);
+        - cell "2025-07-25"
+        - cell "Applied"
+      - row "DevOps Engineer 2025-07-21 L1-Reschedule":
+        - cell "DevOps Engineer":
+          - link "DevOps Engineer":
+            - /url: javascript:void(0);
+        - cell "2025-07-21"
+        - cell "L1-Reschedule"
+      - row "Sales Manager 2025-07-21 Applied":
+        - cell "Sales Manager":
+          - link "Sales Manager":
+            - /url: javascript:void(0);
+        - cell "2025-07-21"
+        - cell "Applied"
+      - row "Data engineer 2025-07-21 Applied":
+        - cell "Data engineer":
+          - link "Data engineer":
+            - /url: javascript:void(0);
+        - cell "2025-07-21"
+        - cell "Applied"
+      - row "Java developer 2025-07-21 L1-Scheduled":
+        - cell "Java developer":
+          - link "Java developer":
+            - /url: javascript:void(0);
+        - cell "2025-07-21"
+        - cell "L1-Scheduled"
+      - row "Laravel Programmer 2025-07-21 L1-Scheduled":
+        - cell "Laravel Programmer":
+          - link "Laravel Programmer":
+            - /url: javascript:void(0);
+        - cell "2025-07-21"
+        - cell "L1-Scheduled"
+      - row "Java Developer 2025-07-21 Applied":
+        - cell "Java Developer":
+          - link "Java Developer":
+            - /url: javascript:void(0);
+        - cell "2025-07-21"
+        - cell "Applied"
+  - text: Showing data 1 to 9 of 9 entries
+  - button [disabled]:
+    - img
+  - button [disabled]:
+    - img
+  - button "1"
+  - button [disabled]:
+    - img
+  - button [disabled]:
+    - img
+  - text: Job Application Tracker
+  - img: Years Count Applied L1-Scheduled L1-Reschedule 2025 0 5 10
+  - searchbox "Search"
+  - text: Interviews
+  - table:
+    - rowgroup:
+      - row "Job Interviewer Date Meet Url":
+        - cell "Job"
+        - cell "Interviewer"
+        - cell "Date"
+        - cell "Meet Url"
+  - paragraph: No record available.
+- contentinfo:
+  - paragraph: Powered By TIUSureCafe
+  - paragraph:
+    - text: © 2024 All rights reserved.
+    - link "TIU Consulting":
+      - /url: https://www.tiuconsulting.com/
+```

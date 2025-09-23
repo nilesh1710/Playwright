@@ -1,0 +1,7 @@
+Clicked element via XPath: //a[@class='remove_me' and @rel='1']
+Clicked element via XPath: /html/body/div[12]/div/div/div[3]/button[2]/span
+Clicked element via XPath: /html/body/div[3]/div[1]/section[2]/div/div/div[1]/div/div[2]/button/span/i
+Clicked element via XPath: //input[@id="checkAll"]
+Clicked element via XPath: /html/body/div[3]/div[4]/div/div/div[2]/a/span
+Clicked element via XPath: /html/body/div[3]/div[1]/section[2]/div/div/div[1]/div/div[2]/button/span/i
+Clicked element via XPath: //*[@id='recycleInfo']//label[contains(text(),'Close')]

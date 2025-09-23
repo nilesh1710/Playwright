@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Assertion Failed",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*"
+  }
+]

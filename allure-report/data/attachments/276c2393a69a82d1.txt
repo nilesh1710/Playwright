@@ -1,0 +1,2 @@
+New tab URL before load wait: https://dev.kredsafe.net/register?token=1d50cfbbbc7ce9b59a6b6376cafc9a58
+domcontentloaded event passed

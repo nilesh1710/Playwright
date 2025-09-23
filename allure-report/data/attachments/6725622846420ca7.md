@@ -1,0 +1,192 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "KredSafe":
+        - /url: /
+        - img "KredSafe"
+    - listitem:
+      - img "KredSafe"
+  - list:
+    - listitem: "Previous Login: 1 minute ago"
+    - listitem:
+      - link " .":
+        - /url: "#"
+    - listitem:
+      - link "Haris Tom Haris Tom":
+        - /url: "#"
+        - img "Haris Tom"
+        - text: Haris Tom
+- complementary:
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://dev.kredsafe.net/user/home
+          - img "Home":
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/overview
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/documents
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/credentials
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/notes
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es_forms
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es-packets
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/subscriptions
+- heading "Welcome Back, Haris!" [level=1]
+- heading " Congratulations! You have completed your on-boarding process." [level=5]
+- img "User profile picture"
+- heading "Haris Tom View Profile FE1201699" [level=3]:
+  - text: Haris Tom
+  - link "View Profile":
+    - /url: https://dev.kredsafe.net/user/overview
+  - text: FE1201699
+- text:  hrd14566@yopmail.com  5803 Olin Lane, Cincinnati, OH, 114435, US
+- img:
+  - img
+- text: Upload Document
+- list:
+  - listitem:
+    - link "Recent Activity":
+      - /url: "#"
+  - listitem:
+    - link "Pending Activity":
+      - /url: "#"
+- grid:
+  - rowgroup:
+    - 'row "Activity Name : activate to sort column ascending Date : activate to sort column ascending"':
+      - 'gridcell "Activity Name : activate to sort column ascending"': ▴ Activity Name ▾
+      - 'gridcell "Date : activate to sort column ascending"': ▴ Date ▾
+- grid:
+  - rowgroup:
+    - 'row "Activity Name : activate to sort column ascending Date : activate to sort column ascending"':
+      - 'gridcell "Activity Name : activate to sort column ascending"': Activity Name
+      - 'gridcell "Date : activate to sort column ascending"': Date
+  - rowgroup:
+    - row "Board Certification information has been updated. 08/19/2025 00:37:29":
+      - gridcell "Board Certification information has been updated."
+      - gridcell "08/19/2025 00:37:29"
+    - row "Board Certification information has been archived. 08/19/2025 00:37:16":
+      - gridcell "Board Certification information has been archived."
+      - gridcell "08/19/2025 00:37:16"
+    - row "Board Certification information has been archived. 08/19/2025 00:37:12":
+      - gridcell "Board Certification information has been archived."
+      - gridcell "08/19/2025 00:37:12"
+    - row "Board Certification information has been archived. 08/19/2025 00:37:07":
+      - gridcell "Board Certification information has been archived."
+      - gridcell "08/19/2025 00:37:07"
+    - row "State Licenses or Certificates information have been updated successfully. 08/19/2025 00:36:59":
+      - gridcell "State Licenses or Certificates information have been updated successfully."
+      - gridcell "08/19/2025 00:36:59"
+    - row "Fellowship information has been updated. 08/19/2025 00:36:26":
+      - gridcell "Fellowship information has been updated."
+      - gridcell "08/19/2025 00:36:26"
+    - row "Residency information has been updated. 08/19/2025 00:36:01":
+      - gridcell "Residency information has been updated."
+      - gridcell "08/19/2025 00:36:01"
+    - row "Internship information has been updated. 08/19/2025 00:35:40":
+      - gridcell "Internship information has been updated."
+      - gridcell "08/19/2025 00:35:40"
+    - row "Professional Education information has been updated. 08/19/2025 00:35:17":
+      - gridcell "Professional Education information has been updated."
+      - gridcell "08/19/2025 00:35:17"
+    - row "Education information has been updated. 08/19/2025 00:34:27":
+      - gridcell "Education information has been updated."
+      - gridcell "08/19/2025 00:34:27"
+    - row "Education information has been archived. 08/19/2025 00:34:17":
+      - gridcell "Education information has been archived."
+      - gridcell "08/19/2025 00:34:17"
+    - row "Education information has been archived. 08/19/2025 00:34:11":
+      - gridcell "Education information has been archived."
+      - gridcell "08/19/2025 00:34:11"
+    - row "Education information has been archived. 08/19/2025 00:34:07":
+      - gridcell "Education information has been archived."
+      - gridcell "08/19/2025 00:34:07"
+    - row "Work Experience has been updated successfully. 08/19/2025 00:33:54":
+      - gridcell "Work Experience has been updated successfully."
+      - gridcell "08/19/2025 00:33:54"
+    - row "Work Experience information has been archived. 08/19/2025 00:33:50":
+      - gridcell "Work Experience information has been archived."
+      - gridcell "08/19/2025 00:33:50"
+    - row "Work Experience information has been archived. 08/19/2025 00:33:35":
+      - gridcell "Work Experience information has been archived."
+      - gridcell "08/19/2025 00:33:35"
+    - row "Work Experience information has been archived. 08/19/2025 00:33:31":
+      - gridcell "Work Experience information has been archived."
+      - gridcell "08/19/2025 00:33:31"
+    - row "Work Experience information has been archived. 08/19/2025 00:33:28":
+      - gridcell "Work Experience information has been archived."
+      - gridcell "08/19/2025 00:33:28"
+    - row "Work Experience information has been archived. 08/19/2025 00:33:22":
+      - gridcell "Work Experience information has been archived."
+      - gridcell "08/19/2025 00:33:22"
+    - row "Work Experience information has been archived. 08/19/2025 00:33:19":
+      - gridcell "Work Experience information has been archived."
+      - gridcell "08/19/2025 00:33:19"
+    - row "Work Experience information has been archived. 08/19/2025 00:33:14":
+      - gridcell "Work Experience information has been archived."
+      - gridcell "08/19/2025 00:33:14"
+    - row "Work Experience information has been archived. 08/19/2025 00:33:10":
+      - gridcell "Work Experience information has been archived."
+      - gridcell "08/19/2025 00:33:10"
+    - row "Work Experience information has been archived. 08/19/2025 00:33:08":
+      - gridcell "Work Experience information has been archived."
+      - gridcell "08/19/2025 00:33:08"
+    - row "Work Experience information has been archived. 08/19/2025 00:33:04":
+      - gridcell "Work Experience information has been archived."
+      - gridcell "08/19/2025 00:33:04"
+    - row "Work Experience information has been archived. 08/19/2025 00:33:01":
+      - gridcell "Work Experience information has been archived."
+      - gridcell "08/19/2025 00:33:01"
+    - row "Work Experience information has been archived. 08/19/2025 00:32:56":
+      - gridcell "Work Experience information has been archived."
+      - gridcell "08/19/2025 00:32:56"
+    - row "Work Experience information has been archived. 08/19/2025 00:32:52":
+      - gridcell "Work Experience information has been archived."
+      - gridcell "08/19/2025 00:32:52"
+    - row "Work Experience information has been archived. 08/19/2025 00:32:47":
+      - gridcell "Work Experience information has been archived."
+      - gridcell "08/19/2025 00:32:47"
+    - row "Profile has been updated. 08/19/2025 00:32:38":
+      - gridcell "Profile has been updated."
+      - gridcell "08/19/2025 00:32:38"
+    - row "Partially updated the profile data. Updated details are Social Security Number (SSN), Date of Birth, City / Region. 05/13/2025 02:08:27":
+      - gridcell "Partially updated the profile data. Updated details are Social Security Number (SSN), Date of Birth, City / Region."
+      - gridcell "05/13/2025 02:08:27"
+    - row "Payment for subscription has been done. 05/13/2025 02:07:12":
+      - gridcell "Payment for subscription has been done."
+      - gridcell "05/13/2025 02:07:12"
+    - row "New user Haris Tom has been registered using the resume. 05/12/2025 04:20:39":
+      - gridcell "New user Haris Tom has been registered using the resume."
+      - gridcell "05/12/2025 04:20:39"
+- status: Showing 1 to 32 of 32 entries
+- heading "Know Anyone?" [level=2]
+- paragraph: Let us know of anyone that may be interested in working with us.
+- button "Submit a Referral"
+- contentinfo: © Copyright by KredSafe. All Rights Reserved.
+```

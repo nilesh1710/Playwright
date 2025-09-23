@@ -1,0 +1,92 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "KredSafe":
+        - /url: /
+        - img "KredSafe"
+    - listitem:
+      - img "KredSafe"
+  - list:
+    - listitem: "Previous Login: 8 minutes ago"
+    - listitem:
+      - link "CS":
+        - /url: mailto:priyankacs@yopmail.com
+    - listitem:
+      - link " 4":
+        - /url: "#"
+    - listitem: 
+    - listitem:
+      - link "David Sam David Sam":
+        - /url: "#"
+        - img "David Sam"
+        - text: David Sam
+- complementary:
+  - navigation:
+    - list:
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/home
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/overview
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/documents
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/credentials
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/notes
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es_forms
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es-packets
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/subscriptions
+- heading "Welcome Back, David!" [level=1]
+- heading " Fill out On-boarding Documents" [level=5]
+- link "You have 1 step(s) to complete":
+  - /url: https://dev.kredsafe.net/user/education
+- link "Complete On-boarding":
+  - /url: https://dev.kredsafe.net/user/education
+  - button "Complete On-boarding"
+- img "User profile picture"
+- heading "David Sam View Profile DJ1101027" [level=3]:
+  - text: David Sam
+  - link "View Profile":
+    - /url: https://dev.kredsafe.net/user/overview
+  - text: DJ1101027
+- text:  ts1234@yopmail.com  5803 Olin Lane, Tecopa, CA, 92389, US Upload Document
+- list:
+  - listitem:
+    - link "Recent Activity":
+      - /url: "#"
+  - listitem:
+    - link "Pending Activity":
+      - /url: "#"
+- grid:
+  - rowgroup:
+    - 'row "Activity Name : activate to sort column ascending Date : activate to sort column ascending"':
+      - 'gridcell "Activity Name : activate to sort column ascending"': ▴ Activity Name ▾
+      - 'gridcell "Date : activate to sort column ascending"': ▴ Date ▾
+- grid:
+  - rowgroup:
+    - 'row "Activity Name : activate to sort column ascending Date : activate to sort column ascending"':
+      - 'gridcell "Activity Name : activate to sort column ascending"': Activity Name
+      - 'gridcell "Date : activate to sort column ascending"': Date
+  - rowgroup:
+    - row "Loading...":
+      - gridcell "Loading..."
+- status: Showing 0 to 0 of 0 entries
+- heading "Know Anyone?" [level=2]
+- paragraph: Let us know of anyone that may be interested in working with us.
+- button "Submit a Referral"
+- contentinfo: © Copyright by KredSafe. All Rights Reserved.
+```

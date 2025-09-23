@@ -1,0 +1,36 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link:
+    - /url: .
+  - navigation:
+    - link " Home":
+      - /url: .
+    - link " Donate":
+      - /url: donate
+    - link " Domains":
+      - /url: add-domain
+    - link " Random":
+      - /url: email-generator
+    - img "Temporary Email"
+    - text: English 
+- main:
+  - text: ts09021@yopmail.com Alias
+  - button ""
+  - text: ":"
+  - emphasis: alt.jo-5ot61a1b
+  - text: "@yopmail.com"
+  - button ""
+  - button ""
+  - button "" [disabled]
+  - button ""
+  - button "" [disabled]
+  - text: page 1
+  - button ""
+  - text: 26 mails
+  - button ""
+  - iframe
+  - iframe
+- contentinfo
+```

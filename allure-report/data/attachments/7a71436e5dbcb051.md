@@ -1,0 +1,131 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - link " Home":
+      - /url: .
+    - link " Donate":
+      - /url: donate
+    - link " Domains":
+      - /url: add-domain
+    - link " Random":
+      - /url: email-generator
+    - img "Temporary Email"
+    - text: English 
+  - link "YOPmail, Disposable email Address":
+    - /url: .
+    - img "YOPmail, Disposable email Address"
+  - heading "Disposable Email Address - Temporary and anonymous inbox" [level=1]
+- main:
+  - insertion:
+    - iframe
+  - text: You Name it, YOPmail has it! 
+  - heading "Auto generated inbox!" [level=5]
+  - text: 
+  - heading "No Registration!" [level=5]
+  - text: 
+  - heading "Messages are kept 8 days!" [level=5]
+  - text: 
+  - heading "No Password!" [level=5]
+  - img
+  - heading "Reply to messages!" [level=5]
+  - img
+  - heading "Email deliverability!" [level=5]
+  - heading "Type the Email name of your choice" [level=2]
+  - textbox "Login"
+  - button ""
+  - link " Random Email generator Can't decide on a disposable email name? Try YOPmail's temp mail Generator !":
+    - /url: email-generator
+    - text: 
+    - heading "Random Email generator" [level=3]
+    - paragraph: Can't decide on a disposable email name? Try YOPmail's temp mail Generator !
+  - link " Alternate domain names Email sent to these domains are auto-forwarded to YOPmail. Your temporary address won't be blacklisted":
+    - /url: alternate-domains
+    - text: 
+    - heading "Alternate domain names" [level=3]
+    - paragraph: Email sent to these domains are auto-forwarded to YOPmail. Your temporary address won't be blacklisted
+  - text: "New daily domain : @ist-hier.com"
+  - button ""
+  - text: "Other domains names :"
+  - button " More..."
+  - iframe
+  - insertion:
+    - iframe
+  - link "  Add your own domain Add your own domain name on YOPmail and receive messages here":
+    - /url: add-domain
+    - text:  
+    - heading "Add your own domain" [level=3]
+    - paragraph: Add your own domain name on YOPmail and receive messages here
+  - link " Hide disposable email with an alias Hide your real YOPmail inbox with an alternate address. Emails to the alias are auto-forwarded to the real inbox.":
+    - /url: email-alias
+    - text: 
+    - heading "Hide disposable email with an alias" [level=3]
+    - paragraph: Hide your real YOPmail inbox with an alternate address. Emails to the alias are auto-forwarded to the real inbox.
+  - link " YOPchat! Chat with your YOPmail friends.":
+    - /url: yopmail-chat
+    - text: 
+    - heading "YOPchat!" [level=3]
+    - paragraph: Chat with your YOPmail friends.
+  - link " Support YOPmail You appreciate YOPmail and you want to contribute to its development.":
+    - /url: donate
+    - text: 
+    - heading "Support YOPmail" [level=3]
+    - paragraph: You appreciate YOPmail and you want to contribute to its development.
+  - heading "Disposable email address" [level=2]
+  - paragraph: YOPmail’s free, quick and feature rich service guards you against spam. Protect your actual email with an anonymous email address, instead use YOPmail’s disposable one to sign-up wherever you want. YOPmail creates temporary inboxes of your choice instantaneously. Use Now & stay Protected!
+  - insertion:
+    - iframe
+  - heading "How does a temporary email protect you?" [level=2]
+  - heading "If you think that registering on the web may result in spam, preferably use a temporary email address. Your information could be abused. Use YOPmail’s free anonymous email addresses, to protect you against spam." [level=3]
+  - list:
+    - listitem: Use ‘any-name-of-your-choice’@YOPmail.com to sign up on websites without disclosing your email address. Message sent to the ‘address’@YOPmail.com is instantaneously created at YOPmail server. No registration required for checking your temporary inbox at YOPmail
+    - listitem: Easily check your disposable inbox at YOPmail.com or directly go to https://YOPmail.com?"name-of-your-inbox"
+    - listitem: Temporary inboxes are not password protected. Hence, choose a unique inbox name or use YOPmail’s Disposable Email Address Generator. You can also use your inbox's email alias for extra security
+    - listitem: "Additional : · All inboxes already exists and are never deleted. · Messages are kept 8 days. You can also manually remove them. · To prevent abuse of service, sending anonymous emails from YOPmail is prohibited. You can however, send an email from a YOPmail email address to another YOPmail disposable email address."
+    - listitem: "New on YOPmail : It is now possible to reply to messages !"
+  - insertion:
+    - iframe
+  - heading "What is a disposable or temporary email address?" [level=2]
+  - paragraph: The objective of disposable email address is to avoid giving out your personal email address in order to protect it, whether for reasons of confidentiality or to avoid receiving spam. Indeed, some websites can use your email address and some will even resell it. Your privacy on the internet is something to be taken seriously.
+  - heading "There are several categories of disposable or temporary email solutions :" [level=3]
+  - list:
+    - listitem: disposable email addresses that offer a temporary inbox for a limited time,
+    - listitem: disposable email addresses that automatically forward received messages to a personal email address,
+    - listitem: disposable email addresses that allow you to create or delete aliases (secondary email addresses).
+  - paragraph: YOPmail is in the first category but inboxes do not expire unlike most disposable email services.
+  - heading "There are different ways to name disposable email address (DEA) services :" [level=3]
+  - paragraph: Temporary email, throw-away address, Trash mail, One-time email, Anonymous email or Fake mail.
+  - heading "Here are a few examples of the use of a disposable email address:" [level=3]
+  - list:
+    - listitem: Registers on websites without disclosing my personal information.
+    - listitem: Do not share my email address so as not to receive spam.
+    - listitem: Give an email address to someone you don't trust.
+    - listitem: Subscribe to a newsletter.
+    - listitem: Write anonymous comments on blogs or forums.
+    - listitem: Register anonymously on a dating site.
+    - listitem: You are a developer, and you want to test your mail sending system.
+    - listitem: You need many email addresses quickly.
+    - listitem: ...
+  - insertion:
+    - iframe
+  - heading "How to use your disposable email ?" [level=2]
+  - text: 1. Choose a disposable email address randomly (with @YOPmail.com)
+  - list:
+    - listitem: "No need to create an address : all disposable email accounts already exist on YOPmail."
+    - listitem: "No inspiration : use the email address generator."
+    - listitem: You can also choose an alternative domain name as they are usually not blacklisted (A new domain name is added every day).
+    - listitem: And for more confidentiality, we'll give you an alias that hides your temporary email. Aliases and alternate domains can be combined.
+  - text: 2. Use this temporary email address on Internet
+  - list:
+    - listitem: Protect your personal email address and prefer using this temporary address as spam dustbin. Preserve your privacy and remain anonymous.
+  - text: 3. Check mails on YOPmail
+  - list:
+    - listitem: Mails are visible in the webmail. Just click on the refresh button to check mails and click in the list to read them.
+- contentinfo:
+  - link "Contact":
+    - /url: contact
+  - text: "|"
+  - link "Privacy Policy":
+    - /url: privacy
+```

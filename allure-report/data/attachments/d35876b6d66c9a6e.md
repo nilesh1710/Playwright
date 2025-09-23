@@ -1,0 +1,90 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "KredSafe":
+        - /url: /
+        - img "KredSafe"
+    - listitem:
+      - img "KredSafe"
+  - list:
+    - listitem: "Previous Login: 55 seconds ago"
+    - listitem:
+      - link "CS":
+        - /url: mailto:priyankacs@yopmail.com
+    - listitem:
+      - link " 4":
+        - /url: "#"
+    - listitem: 
+    - listitem:
+      - link "David Sam David Sam":
+        - /url: "#"
+        - img "David Sam"
+        - text: David Sam
+- complementary:
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://dev.kredsafe.net/user/home
+          - img "Home":
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/overview
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/documents
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/credentials
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/notes
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es_forms
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es-packets
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/subscriptions
+- heading "Change Password" [level=1]
+- list:
+  - listitem:
+    - link "Dashboard":
+      - /url: "https://dev.kredsafe.net/admin/home "
+  - listitem: "> Change Password"
+- text: 
+- textbox "Old Password *": Nilesh@2030
+- text:  Old Password * 
+- textbox "New Password *": Nilesh@2025
+- text:  New Password *  
+- textbox "Confirm Password *": Nilesh@2025
+- text:  Confirm Password *
+- button "Cancel"
+- button "Submit"
+- heading "Password must meet the following requirements:" [level=4]
+- list:
+  - listitem: At least one small letter
+  - listitem: At least one capital letter
+  - listitem: At least one number
+  - listitem: "At least one special character from !, @, #, $, %, ^, &, or *"
+  - listitem: Minimum 9 characters password are allowed.
+  - listitem:
+    - strong: More than two sequential characters/number are not allowed.
+- contentinfo: © Copyright by KredSafe. All Rights Reserved.
+```

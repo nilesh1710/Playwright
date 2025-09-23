@@ -1,0 +1,132 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "KredSafe":
+        - /url: /
+        - img "KredSafe"
+    - listitem:
+      - img "KredSafe"
+  - list:
+    - listitem: "Previous Login: 2 minutes ago"
+    - listitem:
+      - link " .":
+        - /url: "#"
+    - listitem:
+      - link "Niraj User Niraj User":
+        - /url: "#"
+        - img "Niraj User"
+        - text: Niraj User
+- complementary:
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://dev.kredsafe.net/user/home
+          - img "Home":
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/overview
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/documents
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/credentials
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/notes
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es_forms
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es-packets
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/subscriptions
+- heading "Welcome Back, Niraj!" [level=1]
+- heading " Fill out On-boarding Documents" [level=5]
+- link "You have 6 step(s) to complete":
+  - /url: https://dev.kredsafe.net/user/professional-education
+- link "Complete On-boarding":
+  - /url: https://dev.kredsafe.net/user/professional-education
+  - button "Complete On-boarding"
+- text: OR
+- link "Update from Resume":
+  - /url: "#"
+  - button "Update from Resume"
+- img "User profile picture"
+- heading "Niraj User View Profile FH2001735" [level=3]:
+  - text: Niraj User
+  - link "View Profile":
+    - /url: https://dev.kredsafe.net/user/overview
+  - text: FH2001735
+- text:  ts09711@yopmail.com  Ny, NY, AL, 111111, US
+- img:
+  - img
+- text: Upload Document
+- list:
+  - listitem:
+    - link "Recent Activity":
+      - /url: "#"
+  - listitem:
+    - link "Pending Activity":
+      - /url: "#"
+- grid:
+  - rowgroup:
+    - 'row "Activity Name : activate to sort column ascending Date : activate to sort column ascending"':
+      - 'gridcell "Activity Name : activate to sort column ascending"': ▴ Activity Name ▾
+      - 'gridcell "Date : activate to sort column ascending"': ▴ Date ▾
+- grid:
+  - rowgroup:
+    - 'row "Activity Name : activate to sort column ascending Date : activate to sort column ascending"':
+      - 'gridcell "Activity Name : activate to sort column ascending"': Activity Name
+      - 'gridcell "Date : activate to sort column ascending"': Date
+  - rowgroup:
+    - row "Education information has been updated. 08/20/2025 02:42:11":
+      - gridcell "Education information has been updated."
+      - gridcell "08/20/2025 02:42:11"
+    - row "Work Experience has been updated successfully. 08/20/2025 01:45:57":
+      - gridcell "Work Experience has been updated successfully."
+      - gridcell "08/20/2025 01:45:57"
+    - row "Work Experience has been updated successfully. 08/20/2025 01:42:34":
+      - gridcell "Work Experience has been updated successfully."
+      - gridcell "08/20/2025 01:42:34"
+    - row "Work Experience has been updated successfully. 08/20/2025 01:40:34":
+      - gridcell "Work Experience has been updated successfully."
+      - gridcell "08/20/2025 01:40:34"
+    - row "Work Experience has been updated successfully. 08/20/2025 01:38:19":
+      - gridcell "Work Experience has been updated successfully."
+      - gridcell "08/20/2025 01:38:19"
+    - row "Partially updated the profile data. Updated detail is E-mail Address. 08/20/2025 01:34:07":
+      - gridcell "Partially updated the profile data. Updated detail is E-mail Address."
+      - gridcell "08/20/2025 01:34:07"
+    - row "Profile has been updated. 08/20/2025 01:17:00":
+      - gridcell "Profile has been updated."
+      - gridcell "08/20/2025 01:17:00"
+    - row "Payment for subscription has been done. 08/20/2025 01:07:45":
+      - gridcell "Payment for subscription has been done."
+      - gridcell "08/20/2025 01:07:45"
+    - row "New user Niraj User has been registered using the registration form. 08/20/2025 00:08:38":
+      - gridcell "New user Niraj User has been registered using the registration form."
+      - gridcell "08/20/2025 00:08:38"
+- status: Showing 1 to 9 of 9 entries
+- heading "Know Anyone?" [level=2]
+- paragraph: Let us know of anyone that may be interested in working with us.
+- button "Submit a Referral"
+- contentinfo: © Copyright by KredSafe. All Rights Reserved.
+```

@@ -1,0 +1,36 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - text: Back
+  - img "KredSafe logo"
+  - text: Test Mode
+- text: Standard Plan $2,200.00
+- main:
+  - text: Pay with card Email ts101709@yopmail.com
+  - heading "Payment method" [level=2]
+  - text: Card information
+  - group:
+    - textbox "Card number" [disabled]: 4111 1111 1111 1111
+    - img "Visa"
+    - textbox "Expiration" [disabled]: 09 / 25
+    - textbox "CVC" [disabled]: "111"
+    - img
+  - button "Processing..." [disabled]:
+    - text: Processing...
+    - img
+    - img
+  - paragraph:
+    - text: By confirming your payment, you allow KredSafe to charge you for this payment and future payments in accordance with our
+    - link "terms":
+      - /url: https://annashae.com/terms-of-use/
+- contentinfo:
+  - link "Powered by Stripe":
+    - /url: https://stripe.com
+    - text: Powered by
+    - img "Stripe"
+  - link "Terms":
+    - /url: https://stripe.com/legal/end-users
+  - link "Privacy":
+    - /url: https://stripe.com/privacy
+```

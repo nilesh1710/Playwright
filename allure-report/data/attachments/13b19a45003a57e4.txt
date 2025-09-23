@@ -1,0 +1,3 @@
+✅ Add to cart clicked
+✅ Confirm & Pay button clicked
+✅ Form filled and submit button clicked using JS

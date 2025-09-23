@@ -1,0 +1,80 @@
+# Page snapshot
+
+```yaml
+- link "KredSafe":
+  - /url: https://dev.kredsafe.net
+  - img "KredSafe"
+- heading "Welcome" [level=1]
+- paragraph: Simple. Centralized. Credential Concierge services for and by professionals.
+- paragraph: Connect. Anytime. Anywhere. Your credentials are secure and managed with KredSafe.
+- paragraph: Two-Factor Authentication is On
+- heading "Register by uploading your resume" [level=2]
+- text: Please verify your First Name, Last Name, E-mail Address, Industry and Specialties then click the Submit button to complete your registration. 
+- textbox "First Name *": Sam
+- text: First Name * 
+- textbox "Last Name *": Herem
+- text: Last Name * 
+- textbox "E-mail Address *": Ts101709@yopmail.com
+- text: E-mail Address * 
+- textbox "Zip code *": "124435"
+- text: Zip code * 
+- textbox "Industry": Healthcare
+- text: Industry 
+- combobox:
+  - list:
+    - listitem "ACLS":
+      - button "Remove item"
+      - text: ACLS 
+    - listitem "Automobile Claim Law Specialist":
+      - button "Remove item"
+      - text: Automobile Claim Law Specialist 
+    - listitem "Cardiopulmonary resuscitation (CPR)":
+      - button "Remove item"
+      - text: Cardiopulmonary resuscitation (CPR) 
+    - listitem "CERNER":
+      - button "Remove item"
+      - text: CERNER 
+    - listitem "Emergency Room":
+      - button "Remove item"
+      - text: Emergency Room 
+    - listitem "ER":
+      - button "Remove item"
+      - text: ER 
+    - listitem "Management":
+      - button "Remove item"
+      - text: Management 
+    - listitem "Medical":
+      - button "Remove item"
+      - text: Medical 
+    - listitem "Medical License":
+      - button "Remove item"
+      - text: Medical License 
+    - listitem "Mentoring":
+      - button "Remove item"
+      - text: Mentoring 
+    - listitem "Psychiatry":
+      - button "Remove item"
+      - text: Psychiatry 
+    - listitem "Research":
+      - button "Remove item"
+      - text: Research 
+    - listitem "Risk Assessment":
+      - button "Remove item"
+      - text: Risk Assessment 
+    - listitem "Science":
+      - button "Remove item"
+      - text: Science 
+    - listitem "SED":
+      - button "Remove item"
+      - text: SED 
+    - listitem "Student Research Assistant":
+      - button "Remove item"
+      - text: Student Research Assistant 
+  - searchbox "Specialties"
+- text: Specialties Click on the key for changing primary specialty.
+- button "Submit"
+- paragraph:
+  - text: Already have an account?
+  - link "Login":
+    - /url: https://dev.kredsafe.net/login
+```

@@ -1,0 +1,157 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "KredSafe":
+        - /url: /
+        - img "KredSafe"
+    - listitem:
+      - img "KredSafe"
+  - list:
+    - listitem: "Previous Login: 1 minute ago"
+    - listitem:
+      - link " .":
+        - /url: "#"
+    - listitem:
+      - link "Sam Heyri Sam Heyri":
+        - /url: "#"
+        - img "Sam Heyri"
+        - text: Sam Heyri
+- complementary:
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://dev.kredsafe.net/user/home
+          - img "Home":
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/overview
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/documents
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/credentials
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/notes
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es_forms
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es-packets
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/subscriptions
+- heading "Subscription Dashboard" [level=1]
+- list:
+  - listitem:
+    - link "Dashboard":
+      - /url: "https://dev.kredsafe.net/admin/home "
+  - listitem: "> Subscription Dashboard"
+- alert:
+  - strong: Congratulations!
+  - text: You are now become a Premium Subscriber. Please
+  - link "Click Here":
+    - /url: https://dev.kredsafe.net/user/invoice/20250825-1736-1126
+  - text: to download your receipt.
+  - button "Close"
+- paragraph: Subscription Plan Details
+- strong: Subscription
+- paragraph: Premium
+- strong: Price
+- paragraph: $10200
+- strong: Payment Type
+- paragraph: One Time Pay
+- strong: Tenure
+- paragraph: 3 Years
+- strong: Status
+- paragraph: Active
+- strong: Start Date
+- paragraph: Aug 25, 2025
+- strong: Next Due Date
+- paragraph: Aug 24, 2028
+- text: View Features  Update Plan 
+- button "Cancel Subscription"
+- list:
+  - listitem:
+    - link "Subscription Transactions History":
+      - /url: "#home"
+  - listitem:
+    - link "Other Transactions":
+      - /url: "#menu2"
+  - listitem:
+    - link "Cancellation Requests":
+      - /url: "#menu1"
+- text: Show
+- combobox "Show entries":
+  - option "10" [selected]
+  - option "25"
+  - option "50"
+  - option "100"
+- text: "entries Search:"
+- searchbox "Search:"
+- grid:
+  - rowgroup:
+    - 'row "Invoice Number: activate to sort column ascending Amount: activate to sort column ascending Date: activate to sort column ascending Description: activate to sort column ascending Payment Status: activate to sort column ascending Action"':
+      - 'columnheader "Invoice Number: activate to sort column ascending"': ▴ Invoice Number ▾
+      - 'columnheader "Amount: activate to sort column ascending"': ▴ Amount ▾
+      - 'columnheader "Date: activate to sort column ascending"': ▴ Date ▾
+      - 'columnheader "Description: activate to sort column ascending"': ▴ Description ▾
+      - 'columnheader "Payment Status: activate to sort column ascending"': ▴ Payment Status ▾
+      - columnheader "Action"
+  - rowgroup:
+    - row "20250825-1736-1126 $10200 08/25/2025 Payment for Premium Plan - 3 Years for the period Aug 25, 2025 - Aug 24, 2028 Succeeded ":
+      - gridcell "20250825-1736-1126":
+        - link "20250825-1736-1126":
+          - /url: https://dev.kredsafe.net/user/20250825-1736-1126/invoice
+      - gridcell "$10200"
+      - gridcell "08/25/2025"
+      - gridcell "Payment for Premium Plan - 3 Years for the period Aug 25, 2025 - Aug 24, 2028"
+      - gridcell "Succeeded"
+      - gridcell "":
+        - link "":
+          - /url: https://dev.kredsafe.net/user/invoice/20250825-1736-1126
+    - row "20250822-1736-1081 $1980 08/22/2025 Payment for Standard Plan - 6 Months for the period Aug 22, 2025 - Feb 21, 2026 Succeeded ":
+      - gridcell "20250822-1736-1081":
+        - link "20250822-1736-1081":
+          - /url: https://dev.kredsafe.net/user/20250822-1736-1081/invoice
+      - gridcell "$1980"
+      - gridcell "08/22/2025"
+      - gridcell "Payment for Standard Plan - 6 Months for the period Aug 22, 2025 - Feb 21, 2026"
+      - gridcell "Succeeded"
+      - gridcell "":
+        - link "":
+          - /url: https://dev.kredsafe.net/user/invoice/20250822-1736-1081
+- status: Showing 1 to 2 of 2 entries
+- list:
+  - listitem:
+    - link "Previous":
+      - /url: "#"
+  - listitem:
+    - link "1":
+      - /url: "#"
+  - listitem:
+    - link "Next":
+      - /url: "#"
+- contentinfo: © Copyright by KredSafe. All Rights Reserved.
+- alert:
+  - text: Success !
+  - button "Close"
+  - paragraph: Congratulations! You have successfully subscribed to us.
+```

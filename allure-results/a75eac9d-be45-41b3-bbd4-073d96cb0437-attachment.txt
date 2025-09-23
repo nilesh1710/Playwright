@@ -1,0 +1,6 @@
+🔄 Attempt 1 to get OTP...
+⚠️ Error during OTP fetch attempt 1: page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://yopmail.com/en/inbox?login=ts1234
+Call log:
+  - navigating to "https://yopmail.com/en/inbox?login=ts1234", waiting until "load"
+
+🔄 Attempt 2 to get OTP...

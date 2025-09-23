@@ -1,0 +1,93 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "KredSafe":
+        - /url: /
+        - img "KredSafe"
+    - listitem:
+      - img "KredSafe"
+  - list:
+    - listitem: "Previous Login: 44 seconds ago"
+    - listitem:
+      - link "CS":
+        - /url: mailto:priyankacs@yopmail.com
+    - listitem:
+      - link " 4":
+        - /url: "#"
+    - listitem: 
+    - listitem:
+      - link "David Sam David Sam":
+        - /url: "#"
+        - img "David Sam"
+        - text: David Sam
+- complementary:
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://dev.kredsafe.net/user/home
+          - img "Home":
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/overview
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/documents
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/credentials
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/notes
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es_forms
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es-packets
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/subscriptions
+- paragraph
+- link "You have 1 step(s) to complete":
+  - /url: https://dev.kredsafe.net/user/education
+  - heading "You have 1 step(s) to complete" [level=3]
+- paragraph
+- progressbar: 89%
+- heading "Education" [level=1]
+- list:
+  - listitem:
+    - link "Dashboard":
+      - /url: "https://dev.kredsafe.net/admin/home "
+  - listitem: "> Education"
+- button "View Archive Education Items"
+- text: Education
+- img
+- text: Additional Education
+- img
+- img
+- link "Back":
+  - /url: https://dev.kredsafe.net/user/work-experiences
+  - button "Back"
+- button "Add Another"
+- button "Save & Continue"
+- contentinfo: © Copyright by KredSafe. All Rights Reserved.
+- alert:
+  - text: Alert !
+  - button "Close"
+  - paragraph: Please complete your profile before accessing the forms and packets area.
+```

@@ -1,0 +1,8 @@
+{
+  "name": "Local Run",
+  "type": "manual",
+  "url": "http://localhost:8080",
+  "buildName": "Playwright Local Test",
+  "buildOrder": "1",
+  "reportUrl": "http://127.0.0.1:54551"
+}

@@ -1,0 +1,95 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "KredSafe":
+        - /url: /
+        - img "KredSafe"
+    - listitem:
+      - img "KredSafe"
+  - list:
+    - listitem: "Previous Login: 1 minute ago"
+    - listitem:
+      - link " .":
+        - /url: "#"
+    - listitem:
+      - link "Niraj User Niraj User":
+        - /url: "#"
+        - img "Niraj User"
+        - text: Niraj User
+- complementary:
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://dev.kredsafe.net/user/home
+          - img "Home":
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/overview
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/documents
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/credentials
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/notes
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es_forms
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es-packets
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/subscriptions
+- paragraph
+- heading "Your profile is now updated." [level=3]
+- paragraph
+- progressbar: 100%
+- heading "Board Certification / Eligibility" [level=1]
+- list:
+  - listitem:
+    - link "Dashboard":
+      - /url: "https://dev.kredsafe.net/admin/home "
+  - listitem: "> Board Certification / Eligibility"
+- button "View Archive Board Certifications Items"
+- text: Certification / Eligibility
+- img:
+  - img
+- text: 
+- textbox "Certification Name *": asd
+- text: Certification Name * 
+- textbox "Authority *": ASDF
+- text: Authority * 
+- textbox "Certification URL"
+- text: Certification URL 
+- textbox "Date of Certification *": 02/02/2025
+- text: Date of Certification * 
+- textbox "Certificate Expiration Date"
+- text: Certificate Expiration Date 
+- textbox "Description"
+- paragraph: Max characters allowed - 200
+- text: Description
+- link "Back":
+  - /url: https://dev.kredsafe.net/user/certificates
+  - button "Back"
+- button "Add Another"
+- button "Save & Continue"
+- contentinfo: © Copyright by KredSafe. All Rights Reserved.
+```

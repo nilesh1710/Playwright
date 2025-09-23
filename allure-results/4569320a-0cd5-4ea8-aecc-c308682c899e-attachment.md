@@ -1,0 +1,81 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "KredSafe":
+        - /url: /
+        - img "KredSafe"
+    - listitem:
+      - img "KredSafe"
+  - list:
+    - listitem: "Previous Login: 6 minutes ago"
+    - listitem:
+      - link "CS":
+        - /url: mailto:priyankacs@yopmail.com
+    - listitem:
+      - link " 4":
+        - /url: "#"
+    - listitem: 
+    - listitem:
+      - link "David Sam David Sam":
+        - /url: "#"
+        - img "David Sam"
+        - text: David Sam
+- complementary:
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://dev.kredsafe.net/user/home
+          - img "Home":
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/overview
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/documents
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/credentials
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/notes
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es_forms
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es-packets
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/subscriptions
+- heading "Change Password" [level=1]
+- list:
+  - listitem:
+    - link "Dashboard":
+      - /url: "https://dev.kredsafe.net/admin/home "
+  - listitem: "> Change Password"
+- text: 
+- textbox "Old Password *"
+- text:  Old Password * 
+- textbox "New Password *"
+- text:  New Password *  
+- textbox "Confirm Password *"
+- text:  Confirm Password *
+- button "Cancel"
+- button "Submit"
+- contentinfo: © Copyright by KredSafe. All Rights Reserved.
+```

@@ -1,0 +1,166 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "KredSafe":
+        - /url: /
+        - img "KredSafe"
+    - listitem:
+      - img "KredSafe"
+  - list:
+    - listitem: "Previous Login: 52 seconds ago"
+    - listitem:
+      - link " .":
+        - /url: "#"
+    - listitem:
+      - link "Haris Tom Haris Tom":
+        - /url: "#"
+        - img "Haris Tom"
+        - text: Haris Tom
+- complementary:
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://dev.kredsafe.net/user/home
+          - img "Home":
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/overview
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/documents
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/credentials
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/notes
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es_forms
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es-packets
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/subscriptions
+- heading "Assigned Packets" [level=1]
+- list:
+  - listitem:
+    - link "Dashboard":
+      - /url: "https://dev.kredsafe.net/admin/home "
+  - listitem: "> Assigned Packets"
+- list:
+  - listitem:
+    - link "Pending":
+      - /url: "#home"
+  - listitem:
+    - link "Completed":
+      - /url: "#menu1"
+- text: Show
+- combobox "Show entries":
+  - option "10"
+  - option "25" [selected]
+  - option "50"
+  - option "100"
+- text: "entries Search:"
+- searchbox "Search:"
+- grid:
+  - rowgroup:
+    - 'row ". . Packet Name: activate to sort column ascending Assigned By: activate to sort column ascending Assigned On: activate to sort column ascending Notes: activate to sort column ascending Action"':
+      - gridcell ". .":
+        - text: ▴ .
+        - checkbox "."
+        - text: ▾
+      - 'gridcell "Packet Name: activate to sort column ascending"': ▴ Packet Name ▾
+      - 'gridcell "Assigned By: activate to sort column ascending"': ▴ Assigned By ▾
+      - 'gridcell "Assigned On: activate to sort column ascending"': ▴ Assigned On ▾
+      - 'gridcell "Notes: activate to sort column ascending"': ▴ Notes ▾
+      - gridcell "Action"
+  - rowgroup:
+    - row "Assigned 04012024packet multi  Super Admin 05/13/2025 02:07:21 NA Unfilled":
+      - gridcell "Assigned":
+        - img "Assigned"
+      - gridcell "04012024packet multi "
+      - gridcell "Super Admin"
+      - gridcell "05/13/2025 02:07:21"
+      - gridcell "NA"
+      - gridcell "Unfilled"
+    - row "19 January  10 April 2023 ($75) ( Form deleted, Please contact CS if you need assistance. ) Life secure hospital ($50) ( Form deleted, Please contact CS if you need assistance. ) 16 December 2023 ($50) ( Form deleted, Please contact CS if you need assistance. ) 11 Jan CME ATTESTATION fillable ($15) hello_file_testing_80 ($80) ( Form deleted, Please contact CS if you need assistance. ) Super Admin 07/09/2025 01:32:35 NA $15":
+      - gridcell:
+        - checkbox
+      - gridcell "19 January  10 April 2023 ($75) ( Form deleted, Please contact CS if you need assistance. ) Life secure hospital ($50) ( Form deleted, Please contact CS if you need assistance. ) 16 December 2023 ($50) ( Form deleted, Please contact CS if you need assistance. ) 11 Jan CME ATTESTATION fillable ($15) hello_file_testing_80 ($80) ( Form deleted, Please contact CS if you need assistance. )":
+        - text: 19 January 
+        - table:
+          - rowgroup:
+            - row "10 April 2023 ($75) ( Form deleted, Please contact CS if you need assistance. )":
+              - cell "10 April 2023 ($75) ( Form deleted, Please contact CS if you need assistance. )"
+            - row "Life secure hospital ($50) ( Form deleted, Please contact CS if you need assistance. )":
+              - cell "Life secure hospital ($50) ( Form deleted, Please contact CS if you need assistance. )"
+            - row "16 December 2023 ($50) ( Form deleted, Please contact CS if you need assistance. )":
+              - cell "16 December 2023 ($50) ( Form deleted, Please contact CS if you need assistance. )"
+            - row "11 Jan CME ATTESTATION fillable ($15)":
+              - cell "11 Jan CME ATTESTATION fillable ($15)"
+            - row "hello_file_testing_80 ($80) ( Form deleted, Please contact CS if you need assistance. )":
+              - cell "hello_file_testing_80 ($80) ( Form deleted, Please contact CS if you need assistance. )"
+      - gridcell "Super Admin"
+      - gridcell "07/09/2025 01:32:35"
+      - gridcell "NA"
+      - gridcell "$15"
+- status: Showing 1 to 2 of 2 entries
+- list:
+  - listitem:
+    - link "Previous":
+      - /url: "#"
+  - listitem:
+    - link "1":
+      - /url: "#"
+  - listitem:
+    - link "Next":
+      - /url: "#"
+- paragraph:
+  - button "Add to cart"
+- text: Show
+- combobox "Show entries":
+  - option "10"
+  - option "25" [selected]
+  - option "50"
+  - option "100"
+- text: "entries Search:"
+- searchbox "Search:"
+- grid:
+  - rowgroup:
+    - 'row "Packet Name: activate to sort column descending Assigned By: activate to sort column ascending Assigned On: activate to sort column ascending Notes: activate to sort column ascending Action"':
+      - 'gridcell "Packet Name: activate to sort column descending"': ▴ Packet Name ▾
+      - 'gridcell "Assigned By: activate to sort column ascending"': ▴ Assigned By ▾
+      - 'gridcell "Assigned On: activate to sort column ascending"': ▴ Assigned On ▾
+      - 'gridcell "Notes: activate to sort column ascending"': ▴ Notes ▾
+      - gridcell "Action"
+  - rowgroup:
+    - row "No data available in table":
+      - gridcell "No data available in table"
+- status: Showing 0 to 0 of 0 entries
+- list:
+  - listitem:
+    - link "Previous":
+      - /url: "#"
+  - listitem:
+    - link "Next":
+      - /url: "#"
+- text: "- New Packet(s) Assigned"
+- contentinfo: © Copyright by KredSafe. All Rights Reserved.
+```

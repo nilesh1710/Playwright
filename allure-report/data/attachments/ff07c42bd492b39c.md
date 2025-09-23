@@ -1,0 +1,72 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "KredSafe":
+        - /url: /
+        - img "KredSafe"
+    - listitem:
+      - img "KredSafe"
+  - list:
+    - listitem: "Previous Login: 1 minute ago"
+    - listitem:
+      - link " .":
+        - /url: "#"
+    - listitem:
+      - link " 1":
+        - /url: https://dev.kredsafe.net/user/subscription/cart
+    - listitem:
+      - link "Niraj User Niraj User":
+        - /url: "#"
+        - img "Niraj User"
+        - text: Niraj User
+- complementary:
+  - navigation:
+    - list:
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/home
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/overview
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/documents
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/credentials
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/notes
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es_forms
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es-packets
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/subscriptions
+- heading " Your shopping cart" [level=1]
+- 'heading "Standard Plan - Tenure: " [level=2]':
+  - strong: "Standard Plan - Tenure:"
+  - link "":
+    - /url: https://dev.kredsafe.net/user/subscription/cart/1000/remove
+- heading "6 Months" [level=3]
+- heading "Total amount to pay:" [level=2]:
+  - strong: "Total amount to pay:"
+- heading "$2,200.00" [level=3]
+- paragraph: "You can pay using the following methods:"
+- tablist:
+  - tab "Credit Card "
+- checkbox [checked]
+- text: Save
+- link " Edit Subscription":
+  - /url: https://dev.kredsafe.net/user/subscription/cart/1000/edit
+- button "Confirm & Pay"
+- link "Terms and Conditions":
+  - /url: "#"
+- contentinfo: © Copyright by KredSafe. All Rights Reserved.
+```

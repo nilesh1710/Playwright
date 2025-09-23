@@ -1,0 +1,3 @@
+Clicked submit, waiting now
+Wait finished
+Form submitted successfully

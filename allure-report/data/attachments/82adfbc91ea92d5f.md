@@ -1,0 +1,86 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "KredSafe":
+        - /url: /
+        - img "KredSafe"
+    - listitem:
+      - img "KredSafe"
+  - list:
+    - listitem: "Previous Login: 1 minute ago"
+    - listitem:
+      - link " .":
+        - /url: "#"
+    - listitem:
+      - link " 1":
+        - /url: https://dev.kredsafe.net/user/subscription/cart
+    - listitem:
+      - link "Niraj User Niraj User":
+        - /url: "#"
+        - img "Niraj User"
+        - text: Niraj User
+- complementary:
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://dev.kredsafe.net/user/home
+          - img "Home":
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/overview
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/documents
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/credentials
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/notes
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es_forms
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es-packets
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/subscriptions
+- heading " Your shopping cart" [level=1]
+- 'heading "Standard Plan - Tenure: " [level=2]':
+  - strong: "Standard Plan - Tenure:"
+  - link "":
+    - /url: https://dev.kredsafe.net/user/subscription/cart/981/remove
+- heading "6 Months" [level=3]
+- heading "Total amount to pay:" [level=2]:
+  - strong: "Total amount to pay:"
+- heading "$2,200.00" [level=3]
+- paragraph: "You can pay using any of the following methods:"
+- tablist:
+  - tab "" [selected]
+  - tab "Credit Card"
+- tabpanel ""
+- tabpanel "Credit Card"
+- checkbox [checked]
+- text: Save
+- link " Edit Subscription":
+  - /url: https://dev.kredsafe.net/user/subscription/cart/981/edit
+- link "Terms and Conditions":
+  - /url: "#"
+- contentinfo: © Copyright by KredSafe. All Rights Reserved.
+```

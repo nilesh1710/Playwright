@@ -1,0 +1,283 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "KredSafe":
+        - /url: /
+        - img "KredSafe"
+    - listitem:
+      - img "KredSafe"
+  - list:
+    - listitem: "Previous Login: 1 minute ago"
+    - listitem:
+      - link " .":
+        - /url: "#"
+    - listitem:
+      - link "Niraj User Niraj User":
+        - /url: "#"
+        - img "Niraj User"
+        - text: Niraj User
+- complementary:
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://dev.kredsafe.net/user/home
+          - img "Home":
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/overview
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/documents
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/credentials
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/notes
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es_forms
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es-packets
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/subscriptions
+- paragraph
+- link "You have 1 step(s) to complete":
+  - /url: https://dev.kredsafe.net/user/certificates
+  - heading "You have 1 step(s) to complete" [level=3]
+- paragraph
+- progressbar: 89%
+- heading "State Licenses or Certificates" [level=1]
+- list:
+  - listitem:
+    - link "Dashboard":
+      - /url: "https://dev.kredsafe.net/admin/home "
+  - listitem: "> State Licenses or Certificates"
+- paragraph: Affix / Job Title
+- combobox:
+  - option "Please Select" [selected]
+  - option "BSN"
+  - option "CRNA"
+  - option "DO"
+  - option "DPT"
+  - option "LPN"
+  - option "MD"
+  - option "MDD"
+  - option "MSS"
+  - option "NP"
+  - option "OT"
+  - option "PA"
+  - option "PhD"
+  - option "Pro"
+  - option "PT"
+  - option "Public Health"
+  - option "RN"
+- button "View Archive Certificates"
+- text: Licenses or Certificates
+- img:
+  - img
+- text: 
+- textbox "Certification Name *": asd
+- text: Certification Name * 
+- combobox:
+  - option "Select State Authority" [selected]
+  - option "AL - Alabama"
+  - option "AK - Alaska"
+  - option "AS - American Samoa"
+  - option "AZ - Arizona"
+  - option "AR - Arkansas"
+  - option "AE - Armed Forces Middle East"
+  - option "AA - Armed Forces Americas"
+  - option "AP - Armed Forces Pacific"
+  - option "CA - California"
+  - option "CO - Colorado"
+  - option "CT - Connecticut"
+  - option "DE - Delaware"
+  - option "DC - District of Columbia"
+  - option "FM - Federated States Of Micronesia"
+  - option "FL - Florida"
+  - option "GA - Georgia"
+  - option "GU - Guam"
+  - option "HI - Hawaii"
+  - option "ID - Idaho"
+  - option "IL - Illinois"
+  - option "IN - Indiana"
+  - option "IA - Iowa"
+  - option "KS - Kansas"
+  - option "KY - Kentucky"
+  - option "LA - Louisiana"
+  - option "ME - Maine"
+  - option "MH - Marshall Islands"
+  - option "MD - Maryland"
+  - option "MA - Massachusetts"
+  - option "MI - Michigan"
+  - option "MN - Minnesota"
+  - option "MS - Mississippi"
+  - option "MO - Missouri"
+  - option "MT - Montana"
+  - option "NE - Nebraska"
+  - option "NV - Nevada"
+  - option "NH - New Hampshire"
+  - option "NJ - New Jersey"
+  - option "NM - New Mexico"
+  - option "NY - New York"
+  - option "NC - North Carolina"
+  - option "ND - North Dakota"
+  - option "MP - Northern Mariana Islands"
+  - option "OH - Ohio"
+  - option "OK - Oklahoma"
+  - option "OR - Oregon"
+  - option "PW - Palau"
+  - option "PA - Pennsylvania"
+  - option "PR - Puerto Rico"
+  - option "RI - Rhode Island"
+  - option "SC - South Carolina"
+  - option "SD - South Dakota"
+  - option "TN - Tennessee"
+  - option "TX - Texas"
+  - option "UT - Utah"
+  - option "VT - Vermont"
+  - option "VI - Virgin Islands"
+  - option "VA - Virginia"
+  - option "WA - Washington"
+  - option "WV - West Virginia"
+  - option "WI - Wisconsin"
+  - option "WY - Wyoming"
+  - option "Other"
+- text: State Authority * 
+- textbox
+- text: Date of Certification * 
+- textbox
+- text: Certificate Expiration Date 
+- textbox
+- text: Issuing Authority 
+- combobox "Select Status Complete Current Expired Unknown":
+  - option "Select Status" [selected]
+  - option "Complete"
+  - option "Current"
+  - option "Expired"
+  - option "Unknown"
+- text: Status 
+- combobox "Select Board Certification N/A Board Certified Board Eligible":
+  - option "Select Board Certification" [selected]
+  - option "N/A"
+  - option "Board Certified"
+  - option "Board Eligible"
+- text: Board Certification 
+- combobox "Select License Type N/A Permanent Temporary Certificate Certificate":
+  - option "Select License Type" [selected]
+  - option "N/A"
+  - option "Permanent"
+  - option "Temporary Certificate"
+  - option "Certificate"
+- text: License Type 
+- textbox
+- text: License Number 
+- combobox "Select On File Yes No":
+  - option "Select On File" [selected]
+  - option "Yes"
+  - option "No"
+- text: On File 
+- textbox
+- text: Certification URL 
+- combobox:
+  - option "Select Requirement Type" [selected]
+  - option "ACLS*"
+  - option "AMA Profile - (DEA, Education, Training, State Licensure)* (2 years)"
+  - option "American Board of Internal Medicine"
+  - option "American Board of Psychiatry and Neurology Board Certificate"
+  - option "Annashae Application"
+  - option "Applicant's Statement of Authorization and Release and Intent"
+  - option "Background Authorization"
+  - option "BLS"
+  - option "BLS*"
+  - option "BLS & Date of Expiration"
+  - option "Board Certificate"
+  - option "Board Certificate*"
+  - option "Board Certification Verification"
+  - option "Board Verification*"
+  - option "Chester Mental Health Center - Chester Package"
+  - option "Chest X-Ray* (10 years)"
+  - option "Chest X-Ray* (5 years)"
+  - option "Chicago-Read Mental Health Center - Facility Application"
+  - option "Client Performance Evaluation* (annual)"
+  - option "CME Certificates - Coronal Polishing - Application of Pit & Fissure Sealants"
+  - option "CME Form"
+  - option "COI*"
+  - option "Cultural Diversity (exam)"
+  - option "CV"
+  - option "DEA*"
+  - option "Disclosure/Release/Authorization Form"
+  - option "ECFMG"
+  - option "ECFMG Verification"
+  - option "Ethics (exam)"
+  - option "Facility Privileges"
+  - option "Government Issued Photo ID*"
+  - option "Handbook Acknowledgement Form"
+  - option "HIPAA* (annual)"
+  - option "Infection Control (exam)"
+  - option "Internship/Fellowship Certificate"
+  - option "Letter of Release and Intent"
+  - option "Medical Degree"
+  - option "Medical Diploma"
+  - option "Medical License"
+  - option "North East Regional Board of Dental Examiners Certificate"
+  - option "NPDB License Check"
+  - option "NPI"
+  - option "Nursing License"
+  - option "Office of Inspector General (OIG)"
+  - option "Online State Medical License Verification*"
+  - option "OSHA* (annual)"
+  - option "PALS*"
+  - option "Patient Rights (exam)"
+  - option "Patient Safety (exam)"
+  - option "Photo ID"
+  - option "Pre-employment Skills Assessment"
+  - option "Professional Reference Verifications (3 or more)"
+  - option "Prophecy Assessments"
+  - option "Provider Services Agreement (PSA)"
+  - option "Residency Certificate"
+  - option "Rubella*"
+  - option "SAM Search Results"
+  - option "State Medical License"
+  - option "State Medical License*"
+  - option "State of Illinois Licensed Physician Controlled Substance"
+  - option "State Specific Controlled Substance License"
+  - option "Tuberculosis Questionnaire* (annual)"
+  - option "Tuberculosis Test"
+  - option "Tuberculosis Test* (annual)"
+  - option "W-9"
+- text: Requirement Type 
+- textbox "Description"
+- paragraph: Max characters allowed - 200
+- text: Description 
+- button "Choose File"
+- text: Upload documents File types allowed - .doc/.docx/.pdf/.odt/.jpeg/.jpg/.png/.gif (Max file size - 25 MB) Uploaded documents [
+- link "Go to List":
+  - /url: https://dev.kredsafe.net/user/documents
+- text: "]"
+- paragraph: Total 0 credential document(s) uploaded.
+- link "Back":
+  - /url: https://dev.kredsafe.net/user/fellowships
+  - button "Back"
+- button "Add Another"
+- button "Save & Continue"
+- contentinfo: © Copyright by KredSafe. All Rights Reserved.
+```

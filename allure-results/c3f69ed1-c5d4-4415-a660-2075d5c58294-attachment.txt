@@ -1,0 +1,12 @@
+--- Frames at 2025-08-21T10:54:45.863Z ---
+Frame (no element): https://dev.kredsafe.net/user/subscriptions
+--- Frames at 2025-08-21T10:54:47.877Z ---
+Frame (no element): https://dev.kredsafe.net/user/subscriptions
+--- Frames at 2025-08-21T10:54:49.892Z ---
+Frame (no element): https://dev.kredsafe.net/user/subscriptions
+--- Frames at 2025-08-21T10:54:51.908Z ---
+Frame (no element): https://dev.kredsafe.net/user/subscriptions
+--- Frames at 2025-08-21T10:54:53.924Z ---
+Frame (no element): https://dev.kredsafe.net/user/subscriptions
+--- Frames at 2025-08-21T10:54:55.930Z ---
+Frame (no element): https://dev.kredsafe.net/user/subscriptions

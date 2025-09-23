@@ -1,0 +1,166 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "KredSafe":
+        - /url: /
+        - img "KredSafe"
+    - listitem:
+      - img "KredSafe"
+  - list:
+    - listitem: "Previous Login: 1 minute ago"
+    - listitem:
+      - link " .":
+        - /url: "#"
+    - listitem:
+      - link "Vivek Raut Vivek Raut":
+        - /url: "#"
+        - img "Vivek Raut"
+        - text: Vivek Raut
+- complementary:
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://dev.kredsafe.net/user/home
+          - img "Home":
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/overview
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/documents
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/credentials
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/notes
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es_forms
+          - img:
+            - img
+      - listitem:
+        - link:
+          - /url: https://dev.kredsafe.net/user/es-packets
+          - img:
+            - img
+      - listitem:
+        - link "":
+          - /url: https://dev.kredsafe.net/user/subscriptions
+- paragraph
+- link "You have 2 step(s) to complete":
+  - /url: https://dev.kredsafe.net/user/certificates
+  - heading "You have 2 step(s) to complete" [level=3]
+- paragraph
+- progressbar: 78%
+- heading "Board Certification / Eligibility" [level=1]
+- list:
+  - listitem:
+    - link "Dashboard":
+      - /url: "https://dev.kredsafe.net/admin/home "
+  - listitem: "> Board Certification / Eligibility"
+- button "View Archive Board Certifications Items"
+- text: Certification / Eligibility
+- img:
+  - img
+- text: 
+- textbox "Certification Name *": asd
+- text: Certification Name * 
+- textbox "Authority *": ASDF
+- text: Authority * 
+- textbox "Certification URL"
+- text: Certification URL 
+- textbox "Date of Certification *": 02/02/2025
+- text: Date of Certification * 
+- textbox "Certificate Expiration Date"
+- text: Certificate Expiration Date 
+- textbox "Description"
+- paragraph: Max characters allowed - 200
+- text: Description
+- link "Back":
+  - /url: https://dev.kredsafe.net/user/certificates
+  - button "Back"
+- button "Add Another"
+- button "Save & Continue"
+- contentinfo:
+  - text: © Copyright by KredSafe. All Rights Reserved.
+  - link "Scroll up":
+    - /url: "#"
+- table:
+  - rowgroup:
+    - row
+    - row "« August 2025":
+      - cell "«"
+      - cell "August 2025"
+    - row "Su Mo Tu We Th Fr Sa":
+      - cell "Su"
+      - cell "Mo"
+      - cell "Tu"
+      - cell "We"
+      - cell "Th"
+      - cell "Fr"
+      - cell "Sa"
+  - rowgroup:
+    - row "27 28 29 30 31 1 2":
+      - cell "27"
+      - cell "28"
+      - cell "29"
+      - cell "30"
+      - cell "31"
+      - cell "1"
+      - cell "2"
+    - row "3 4 5 6 7 8 9":
+      - cell "3"
+      - cell "4"
+      - cell "5"
+      - cell "6"
+      - cell "7"
+      - cell "8"
+      - cell "9"
+    - row "10 11 12 13 14 15 16":
+      - cell "10"
+      - cell "11"
+      - cell "12"
+      - cell "13"
+      - cell "14"
+      - cell "15"
+      - cell "16"
+    - row "17 18 19 20 21 22 23":
+      - cell "17"
+      - cell "18"
+      - cell "19"
+      - cell "20"
+      - cell "21"
+      - cell "22"
+      - cell "23"
+    - row "24 25 26 27 28 29 30":
+      - cell "24"
+      - cell "25"
+      - cell "26"
+      - cell "27"
+      - cell "28"
+      - cell "29"
+      - cell "30"
+    - row "31 1 2 3 4 5 6":
+      - cell "31"
+      - cell "1"
+      - cell "2"
+      - cell "3"
+      - cell "4"
+      - cell "5"
+      - cell "6"
+  - rowgroup:
+    - row
+    - row
+```

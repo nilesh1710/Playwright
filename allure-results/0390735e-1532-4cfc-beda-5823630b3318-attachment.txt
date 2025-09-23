@@ -1,0 +1,4 @@
+Add to cart successfully
+🛒 JS click on cart icon successful
+✅ Confirm & Pay button clicked using JS
+✅ Form filled and submit button clicked using JS
